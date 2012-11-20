@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="text" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="text">
+				<uielements/>
+			</CCUIComponent>
+			<CCUIComponent label="shadow settings">
+				<uielements>
+					<CCUISlider label="min time">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="max time">
+						<preset value="1.7333333"/>
+					</CCUISlider>
+					<CCUISlider label="min delay">
+						<preset value="0.099999994"/>
+					</CCUISlider>
+					<CCUISlider label="max delay">
+						<preset value="1.1999999"/>
+					</CCUISlider>
+					<CCUISlider label="line time">
+						<preset value="5.0"/>
+					</CCUISlider>
+					<CCUISlider label="r">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="g">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="b">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="leading">
+						<preset value="36.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="text settings">
+				<uielements>
+					<CCUISlider label="min time">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="max time">
+						<preset value="1.5666666"/>
+					</CCUISlider>
+					<CCUISlider label="min delay">
+						<preset value="0.23333333"/>
+					</CCUISlider>
+					<CCUISlider label="max delay">
+						<preset value="1.1"/>
+					</CCUISlider>
+					<CCUISlider label="line time">
+						<preset value="5.0"/>
+					</CCUISlider>
+					<CCUISlider label="r">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="g">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="b">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="leading">
+						<preset value="36.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="progress">
+						<preset value="1.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="smoothing">
+						<preset value="0.9066667"/>
+					</CCUISlider>
+					<CCUISlider label="gravity">
+						<preset value="36.0"/>
+					</CCUISlider>
+					<CCUISlider label="init velocity scale">
+						<preset value="780.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="throw">
+				<uielements>
+					<CCUISlider label="threshold">
+						<preset value="466.66666"/>
+					</CCUISlider>
+					<CCUISlider label="angle change thresh">
+						<preset value="16.0"/>
+					</CCUISlider>
+					<CCUISlider label="angle min thresh">
+						<preset value="108.00001"/>
+					</CCUISlider>
+					<CCUISlider label="angle max time">
+						<preset value="0.38"/>
+					</CCUISlider>
+					<CCUISlider label="throw break">
+						<preset value="0.30666667"/>
+					</CCUISlider>
+					<CCUISlider label="value scale">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="motion scale">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="acc scale">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="angle scale">
+						<preset value="0.19999999"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

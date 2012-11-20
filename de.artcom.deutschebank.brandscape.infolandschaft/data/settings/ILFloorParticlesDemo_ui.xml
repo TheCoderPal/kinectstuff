@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="particles">
+				<uielements>
+					<CCUISlider label="target force">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="gravity">
+						<preset value="0.33333334"/>
+					</CCUISlider>
+					<CCUISlider label="noise force">
+						<preset value="2.0"/>
+					</CCUISlider>
+					<CCUISlider label="noise speed">
+						<preset value="0.22666667"/>
+					</CCUISlider>
+					<CCUISlider label="noise scale">
+						<preset value="0.39999998"/>
+					</CCUISlider>
+					<CCUISlider label="reduction">
+						<preset value="0.18666667"/>
+					</CCUISlider>
+					<CCUISlider label="point size">
+						<preset value="25"/>
+					</CCUISlider>
+					<CCUISlider label="floor y">
+						<preset value="-666.6666"/>
+					</CCUISlider>
+					<CCUISlider label="floor resilience">
+						<preset value="0.16666667"/>
+					</CCUISlider>
+					<CCUISlider label="floor friction">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="min Velocity">
+						<preset value="0.16"/>
+					</CCUISlider>
+					<CCUISlider label="blend target force">
+						<preset value="0.14666666"/>
+					</CCUISlider>
+					<CCUISlider label="blend pow">
+						<preset value="1.486"/>
+					</CCUISlider>
+					<CCUISlider label="gradient range">
+						<preset value="0.14"/>
+					</CCUISlider>
+					<CCUISlider label="gradient blend">
+						<preset value="0.14"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="x">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="y">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="z">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="scale">
+						<preset value="0.40933335"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="emit particles">
+						<preset value="0"/>
+					</CCUISlider>
+					<CCUISlider label="point size">
+						<preset value="7"/>
+					</CCUISlider>
+					<CCUISlider label="gravity">
+						<preset value="0.26666668"/>
+					</CCUISlider>
+					<CCUISlider label="force field">
+						<preset value="1.3333334"/>
+					</CCUISlider>
+					<CCUISlider label="target strength">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="floor y">
+						<preset value="-338.6667"/>
+					</CCUISlider>
+					<CCUISlider label="back z">
+						<preset value="-133.33331"/>
+					</CCUISlider>
+					<CCUISlider label="front z">
+						<preset value="160.0"/>
+					</CCUISlider>
+					<CCUISlider label="floor resilience">
+						<preset value="0.7"/>
+					</CCUISlider>
+					<CCUISlider label="floor friction">
+						<preset value="0.29333332"/>
+					</CCUISlider>
+					<CCUISlider label="min Velocity">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="floor gray">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="floor alpha">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="bar alpha">
+						<preset value="0.47333333"/>
+					</CCUISlider>
+					<CCUISlider label="mirror">
+						<preset value="0.2"/>
+					</CCUISlider>
+					<CCUISlider label="mirror correction">
+						<preset value="1.26"/>
+					</CCUISlider>
+					<CCUIButton label="update target">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUISlider label="target z">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="target left top x">
+						<preset value="56.0"/>
+					</CCUISlider>
+					<CCUISlider label="target left top y">
+						<preset value="210.66663"/>
+					</CCUISlider>
+					<CCUISlider label="target left bottom x">
+						<preset value="-254.66663"/>
+					</CCUISlider>
+					<CCUISlider label="target left bottom y">
+						<preset value="-214.66669"/>
+					</CCUISlider>
+					<CCUISlider label="target right top x">
+						<preset value="238.66663"/>
+					</CCUISlider>
+					<CCUISlider label="target right top y">
+						<preset value="213.33337"/>
+					</CCUISlider>
+					<CCUISlider label="target right bottom x">
+						<preset value="-69.33331"/>
+					</CCUISlider>
+					<CCUISlider label="target right bottom y">
+						<preset value="-213.33331"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

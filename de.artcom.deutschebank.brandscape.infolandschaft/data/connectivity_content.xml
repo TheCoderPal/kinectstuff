@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locations>
+
+    <location>
+    	<name>New York</name>
+    	<value>87.69</value>
+    	<latitude>40.714722</latitude>
+    	<longitude>-74.005428</longitude>
+    	<text>
+    		<en><![CDATA[7,197 of us have their offices 
+in New York. Deutsche is 
+the only bank on Wall Street.]]></en>
+			<de><![CDATA[7,197 of us have their offices 
+in New York. Deutsche is 
+the only bank on Wall Street.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Chicago</name>
+    	<value>54.54</value>
+    	<latitude>41.878114</latitude>
+    	<longitude>-87.629798</longitude>
+    	<text>
+    		<en><![CDATA[In the U.S. there are 10,800 
+Deutschbankers – 
+13% of our entire workforce.]]></en>
+			<de><![CDATA[In the U.S. there are 10,800 
+Deutschbankers – 
+13% of our entire workforce.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Washington</name>
+    	<value>53.44</value>
+    	<latitude>38.895112</latitude>
+    	<longitude>-77.036366</longitude>
+    	<text>
+    		<en><![CDATA[In the U.S. there are 10,800 
+Deutschbankers – 
+13% of our entire workforce.]]></en>
+			<de><![CDATA[In the U.S. there are 10,800 
+Deutschbankers – 
+13% of our entire workforce.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>San Francisco</name>
+    	<value>47.58</value>
+    	<latitude>37.774930</latitude>
+    	<longitude>-122.419412</longitude>
+    	<text>
+    		<en><![CDATA[In the U.S. there are 10,800 
+Deutschbankers – 
+13% of our entire workforce.]]></en>
+			<de><![CDATA[In the U.S. there are 10,800 
+Deutschbankers – 
+13% of our entire workforce.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Toronto</name>
+    	<value>46.12</value>
+    	<latitude>43.653226</latitude>
+    	<longitude>-79.383184</longitude>
+    	<text>
+    		<en><![CDATA[12% of us work outside 
+their home country.]]></en>
+			<de><![CDATA[12% of us work outside 
+their home country.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Boston</name>
+    	<value>42.90</value>
+    	<latitude>42.358431</latitude>
+    	<longitude>-71.059768</longitude>
+    	<text>
+    		<en><![CDATA[62% of us work in 
+countries outside Germany.]]></en>
+			<de><![CDATA[62% of us work in 
+countries outside Germany.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Vancouver</name>
+    	<value>38.60</value>
+    	<latitude>49.261226</latitude>
+    	<longitude>-123.113927</longitude>
+    	<text>
+    		<en><![CDATA[73 countries are home to 
+Deutschbankers today. 
+In 1970 it was just 19 countries.]]></en>
+			<de><![CDATA[73 countries are home to 
+Deutschbankers today. 
+In 1970 it was just 19 countries.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Montreal</name>
+    	<value>35.73</value>
+    	<latitude>45.508670</latitude>
+    	<longitude>-73.553992</longitude>
+    	<text>
+    		<en><![CDATA[12% of us work outside 
+their home country.]]></en>
+			<de><![CDATA[12% of us work outside 
+their home country.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Sao Paulo</name>
+    	<value>29.71</value>
+    	<latitude>-23.548943</latitude>
+    	<longitude>-46.638818</longitude>
+    	<text>
+    		<en><![CDATA[62% of us work in 
+countries outside Germany.]]></en>
+			<de><![CDATA[62% of us work in 
+countries outside Germany.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Buenos Aires</name>
+    	<value>25.27</value>
+    	<latitude>-34.603723</latitude>
+    	<longitude>-58.381593</longitude>
+    	<text>
+    		<en><![CDATA[73 countries are home to 
+Deutschbankers today. 
+In 1970 it was just 19 countries.]]></en>
+			<de><![CDATA[73 countries are home to 
+Deutschbankers today. 
+In 1970 it was just 19 countries.]]></de>
+    	</text>
+    </location>	
+    
+    <location>
+    	<name>London</name>
+    	<value>85.96</value>
+    	<latitude>51.507335</latitude>
+    	<longitude>-0.127683</longitude>
+    	<text>
+    		<en><![CDATA[6,246 people work for Deutsche 
+in London, making us the largest 
+employer in the City of London.]]></en>
+			<de><![CDATA[6,246 people work for Deutsche 
+in London, making us the largest 
+employer in the City of London.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Paris</name>
+    	<value>71.37</value>
+    	<latitude>48.856612</latitude>
+    	<longitude>2.352243</longitude>
+    	<text>
+    		<en><![CDATA[13,588 Deutschbankers 
+ are based in Europe – 
+ 17% of all staff.]]></en>
+			<de><![CDATA[13,588 Deutschbankers 
+ are based in Europe – 
+ 17% of all staff.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Frankfurt</name>
+    	<value>64.40</value>
+    	<latitude>50.110916</latitude>
+    	<longitude>8.682098</longitude>
+    	<text>
+    		<en><![CDATA[9,000 Deutschbankers 
+work in Frankfurt – 11% of all staff.]]></en>
+			<de><![CDATA[9,000 Deutschbankers 
+work in Frankfurt – 11% of all staff.]]></de>
+    	</text>
+    </location>
+     <location>
+    	<name>Amsterdam</name>
+    	<value>54.70</value>
+    	<latitude>52.370216</latitude>
+    	<longitude>4.895168</longitude>
+    	<text>
+    		<en><![CDATA[62% of us work in 
+countries outside Germany.]]></en>
+			<de><![CDATA[62% of us work in 
+countries outside Germany.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Zurich</name>
+    	<value>54.00</value>
+    	<latitude>47.368650</latitude>
+    	<longitude>8.539182</longitude>
+    	<text>
+    		<en><![CDATA[139 nations – that is 
+how diverse we are 
+at Deutsche.]]></en>
+			<de><![CDATA[139 nations – that is 
+how diverse we are 
+at Deutsche.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Geneva</name>
+    	<value>51.50</value>
+    	<latitude>46.198392</latitude>
+    	<longitude>6.142296</longitude>
+    	<text>
+    		<en><![CDATA[13,588 Deutschbankers 
+ are based in Europe – 
+ 17% of all staff.]]></en>
+			<de><![CDATA[13,588 Deutschbankers 
+ are based in Europe – 
+ 17% of all staff.]]></de>
+    	</text>
+    </location>
+     <location>
+    	<name>Munich</name>
+    	<value>44.30</value>
+    	<latitude>48.136607</latitude>
+    	<longitude>11.577085</longitude>
+    	<text>
+    		<en><![CDATA[62% of us work in 
+countries outside Germany.]]></en>
+			<de><![CDATA[62% of us work in 
+countries outside Germany.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Copenhagen</name>
+    	<value>42.17</value>
+    	<latitude>55.676097</latitude>
+    	<longitude>12.568337</longitude>
+    	<text>
+    		<en><![CDATA[139 nations – that is 
+how diverse we are 
+at Deutsche.]]></en>
+			<de><![CDATA[139 nations – that is 
+how diverse we are 
+at Deutsche.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Stockholm</name>
+    	<value>41.38</value>
+    	<latitude>56.133333</latitude>
+    	<longitude>13.416667</longitude>
+    	<text>
+    		<en><![CDATA[13,588 Deutschbankers 
+ are based in Europe – 
+ 17% of all staff.]]></en>
+			<de><![CDATA[13,588 Deutschbankers 
+ are based in Europe – 
+ 17% of all staff.]]></de>
+    	</text>
+    </location>
+     <location>
+    	<name>Brussels</name>
+    	<value>40.85</value>
+    	<latitude>50.850340</latitude>
+    	<longitude>4.351710</longitude>
+    	<text>
+    		<en><![CDATA[62% of us work in 
+countries outside Germany.]]></en>
+			<de><![CDATA[62% of us work in 
+countries outside Germany.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Oslo</name>
+    	<value>38.61</value>
+    	<latitude>59.913867</latitude>
+    	<longitude>10.752243</longitude>
+    	<text>
+    		<en><![CDATA[139 nations – that is 
+how diverse we are 
+at Deutsche.]]></en>
+			<de><![CDATA[139 nations – that is 
+how diverse we are 
+at Deutsche.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Vienna</name>
+    	<value>37.10</value>
+    	<latitude>48.208174</latitude>
+    	<longitude>16.373819</longitude>
+    	<text>
+    		<en><![CDATA[13,588 Deutschbankers 
+ are based in Europe – 
+ 17% of all staff.]]></en>
+			<de><![CDATA[13,588 Deutschbankers 
+ are based in Europe – 
+ 17% of all staff.]]></de>
+    	</text>
+    </location>
+     <location>
+    	<name>Luxemburg</name>
+    	<value>36.84</value>
+    	<latitude>49.815273</latitude>
+    	<longitude>6.129583</longitude>
+    	<text>
+    		<en><![CDATA[62% of us work in 
+countries outside Germany.]]></en>
+			<de><![CDATA[62% of us work in 
+countries outside Germany.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Madrid</name>
+    	<value>35.75</value>
+    	<latitude>40.416691</latitude>
+    	<longitude>-3.700345</longitude>
+    	<text>
+    		<en><![CDATA[139 nations – that is 
+how diverse we are 
+at Deutsche.]]></en>
+			<de><![CDATA[139 nations – that is 
+how diverse we are 
+at Deutsche.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Helsinki</name>
+    	<value>36.60</value>
+    	<latitude>60.166586</latitude>
+    	<longitude>24.943555</longitude>
+    	<text>
+    		<en><![CDATA[13,588 Deutschbankers 
+ are based in Europe – 
+ 17% of all staff.]]></en>
+			<de><![CDATA[13,588 Deutschbankers 
+ are based in Europe – 
+ 17% of all staff.]]></de>
+    	</text>
+    </location>
+    
+    
+     <location>
+    	<name>Moscow</name>
+    	<value>35.40</value>
+    	<latitude>55.742793</latitude>
+    	<longitude>37.615401</longitude>
+    	<text>
+    		<en><![CDATA[62% of us work in 
+countries outside Germany.]]></en>
+			<de><![CDATA[62% of us work in 
+countries outside Germany.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Milan</name>
+    	<value>35.37</value>
+    	<latitude>45.465454</latitude>
+    	<longitude>9.186516</longitude>
+    	<text>
+    		<en><![CDATA[139 nations – that is 
+how diverse we are 
+at Deutsche.]]></en>
+			<de><![CDATA[139 nations – that is 
+how diverse we are 
+at Deutsche.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Rome</name>
+    	<value>34.31</value>
+    	<latitude>41.901514</latitude>
+    	<longitude>12.460774</longitude>
+    	<text>
+    		<en><![CDATA[13,588 Deutschbankers 
+ are based in Europe – 
+ 17% of all staff.]]></en>
+			<de><![CDATA[13,588 Deutschbankers 
+ are based in Europe – 
+ 17% of all staff.]]></de>
+    	</text>
+    </location>
+     <location>
+    	<name>Dublin</name>
+    	<value>33.58</value>
+    	<latitude>53.349443</latitude>
+    	<longitude>-6.260079</longitude>
+    	<text>
+    		<en><![CDATA[62% of us work in 
+countries outside Germany.]]></en>
+			<de><![CDATA[62% of us work in 
+countries outside Germany.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Budapest</name>
+    	<value>24.84</value>
+    	<latitude>47.498406</latitude>
+    	<longitude>19.040758</longitude>
+    	<text>
+    		<en><![CDATA[139 nations – that is 
+how diverse we are 
+at Deutsche.]]></en>
+			<de><![CDATA[139 nations – that is 
+how diverse we are 
+at Deutsche.]]></de>
+    	</text>
+    </location>	
+    <location>
+    	<name>Lisbon</name>
+    	<value>24.74</value>
+    	<latitude>38.725299</latitude>
+    	<longitude>-9.150036</longitude>
+    	<text>
+    		<en><![CDATA[139 nations – that is 
+how diverse we are 
+at Deutsche.]]></en>
+			<de><![CDATA[139 nations – that is 
+how diverse we are 
+at Deutsche.]]></de>
+    	</text>
+    </location>	
+    
+    <location>
+    	<name>Tokyo</name>
+    	<value>85.81</value>
+    	<latitude>35.689123</latitude>
+    	<longitude>139.691706</longitude>
+    	<text>
+    		<en><![CDATA[In Asia we have 15,943 employees – 
+they represent 20% of all Deutschbankers.]]></en>
+			<de><![CDATA[In Asia we have 15,943 employees – 
+they represent 20% of all Deutschbankers.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Hong Kong</name>
+    	<value>82.18</value>
+    	<latitude>22.396441</latitude>
+    	<longitude>114.109522</longitude>
+    	<text>
+    		<en><![CDATA[In Hong Kong there are 1,365
+                     Deutschbankers.]]></en>
+			<de><![CDATA[In Hong Kong there are 1,365
+                     Deutschbankers.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Singapore</name>
+    	<value>74.53</value>
+    	<latitude>1.352083</latitude>
+    	<longitude>103.819836</longitude>
+    	<text>
+    		<en><![CDATA[In just 5 years the number of our 
+employees in Asia has doubled.]]></en>
+			<de><![CDATA[In just 5 years the number of our 
+employees in Asia has doubled.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Shanghai</name>
+    	<value>71.42</value>
+    	<latitude>31.230393</latitude>
+    	<longitude>121.473704</longitude>
+    	<text>
+    		<en><![CDATA[In just 5 years the number of our 
+employees in Asia has doubled.]]></en>
+			<de><![CDATA[In just 5 years the number of our 
+employees in Asia has doubled.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Beijing</name>
+    	<value>53.16</value>
+    	<latitude>39.904214</latitude>
+    	<longitude>116.407413</longitude>
+    	<text>
+    		<en><![CDATA[In Asia we have 15,943 employees – 
+they represent 20% of all Deutschbankers.]]></en>
+			<de><![CDATA[In Asia we have 15,943 employees – 
+they represent 20% of all Deutschbankers.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Shenzhen</name>
+    	<value>42.53</value>
+    	<latitude>22.543099</latitude>
+    	<longitude>114.057868</longitude>
+    	<text>
+    		<en><![CDATA[In Asia we have 15,943 employees – 
+they represent 20% of all Deutschbankers.]]></en>
+			<de><![CDATA[In Asia we have 15,943 employees – 
+they represent 20% of all Deutschbankers.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Seoul</name>
+    	<value>41.33</value>
+    	<latitude>37.566535</latitude>
+    	<longitude>126.977969</longitude>
+    	<text>
+    		<en><![CDATA[In Asia we have 15,943 employees – 
+they represent 20% of all Deutschbankers.]]></en>
+			<de><![CDATA[In Asia we have 15,943 employees – 
+they represent 20% of all Deutschbankers.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Mumbai</name>
+    	<value>35.68</value>
+    	<latitude>19.075984</latitude>
+    	<longitude>72.877656</longitude>
+    	<text>
+    		<en><![CDATA[In just 5 years the number of our 
+employees in Asia has doubled.]]></en>
+			<de><![CDATA[In just 5 years the number of our 
+employees in Asia has doubled.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Osaka</name>
+    	<value>33.84</value>
+    	<latitude>34.693738</latitude>
+    	<longitude>135.502165</longitude>
+    	<text>
+    		<en><![CDATA[In just 5 years the number of our 
+employees in Asia has doubled.]]></en>
+			<de><![CDATA[In just 5 years the number of our 
+employees in Asia has doubled.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Taipei</name>
+    	<value>32.85</value>
+    	<latitude>25.091075</latitude>
+    	<longitude>121.559834</longitude>
+    	<text>
+    		<en><![CDATA[In just 5 years the number of our 
+employees in Asia has doubled.]]></en>
+			<de><![CDATA[In just 5 years the number of our 
+employees in Asia has doubled.]]></de>
+    	</text>
+    </location>
+    
+    <location>
+    	<name>Sydney</name>
+    	<value>57.08</value>
+    	<latitude>33.873651</latitude>
+    	<longitude>151.206890</longitude>
+    	<text>
+    		<en><![CDATA[62% of us work in 
+countries outside Germany.]]></en>
+			<de><![CDATA[62% of us work in 
+countries outside Germany.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Melbourne</name>
+    	<value>36.00</value>
+    	<latitude>-37.813611</latitude>
+    	<longitude>144.963056</longitude>
+    	<text>
+    		<en><![CDATA[73 countries are home to 
+Deutschbankers today. 
+In 1970 it was just 19 countries.]]></en>
+			<de><![CDATA[73 countries are home to 
+Deutschbankers today. 
+In 1970 it was just 19 countries.]]></de>
+    	</text>
+    </location>
+   
+	<location>
+    	<name>Dubai</name>
+    	<value>51.00</value>
+    	<latitude>25.271139</latitude>
+    	<longitude>55.307485</longitude>
+    	<text>
+    		<en><![CDATA[62% of us work in 
+countries outside Germany.]]></en>
+			<de><![CDATA[62% of us work in 
+countries outside Germany.]]></de>
+    	</text>
+    </location>
+    <location>
+    	<name>Johannesburg</name>
+    	<value>24.35</value>
+    	<latitude>-26.204103</latitude>
+    	<longitude>28.047305</longitude>
+    	<text>
+    		<en><![CDATA[73 countries are home to 
+Deutschbankers today. 
+In 1970 it was just 19 countries.]]></en>
+			<de><![CDATA[73 countries are home to 
+Deutschbankers today. 
+In 1970 it was just 19 countries.]]></de>
+    	</text>
+    </location>	
+     
+</locations>

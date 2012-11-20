@@ -1,0 +1,141 @@
+
+[Fri Sep 28 11:57:45 CEST 2012] [CCOpenNIUserGenerator$ExitUserObserver Line:90:update] [INFO] onExitUser - userId: 6
+
+[Fri Sep 28 11:58:01 CEST 2012] [CCOpenNIUserGenerator$NewUserObserver Line:62:update] [INFO] onNewUser - userId: 2
+[Fri Sep 28 11:58:01 CEST 2012] [CCOpenNIUserGenerator$NewUserObserver Line:63:update] [INFO]   start pose detection
+[Fri Sep 28 11:58:01 CEST 2012] [CCOpenNIUserGenerator$CalibrationStartObserver Line:129:update] [INFO] onStartCalibration - userId: 2
+
+[Fri Sep 28 11:58:05 CEST 2012] [CCOpenNIUserGenerator$LostUserObserver Line:80:update] [INFO] onLostUser - userId: 6
+[Fri Sep 28 11:58:06 CEST 2012] [CCOpenNIUserGenerator$CalibrationCompleteObserver Line:145:update] [INFO] onEndCalibration - userId: 2, successfull: false
+[Fri Sep 28 11:58:06 CEST 2012] [CCOpenNIUserGenerator$CalibrationCompleteObserver Line:169:update] [INFO]   Failed to calibrate user !!!
+[Fri Sep 28 11:58:06 CEST 2012] [CCOpenNIUserGenerator$CalibrationCompleteObserver Line:170:update] [INFO]   Start pose detection
+[Fri Sep 28 11:58:10 CEST 2012] [CCOpenNIUserGenerator$NewUserObserver Line:62:update] [INFO] onNewUser - userId: 6
+[Fri Sep 28 11:58:10 CEST 2012] [CCOpenNIUserGenerator$NewUserObserver Line:63:update] [INFO]   start pose detection
+[Fri Sep 28 11:58:10 CEST 2012] [CCOpenNIUserGenerator$CalibrationStartObserver Line:129:update] [INFO] onStartCalibration - userId: 6
+[Fri Sep 28 11:58:12 CEST 2012] [CCOpenNIUserGenerator$CalibrationCompleteObserver Line:145:update] [INFO] onEndCalibration - userId: 6, successfull: true
+[Fri Sep 28 11:58:12 CEST 2012] [CCOpenNIUserGenerator$CalibrationCompleteObserver Line:148:update] [INFO]   User calibrated !!!
+User 6 -> avgJointVelocity: 0,00 -- ticks: 1
+[Fri Sep 28 11:58:12 CEST 2012] [CCOpenNIUserGenerator$LostUserObserver Line:80:update] [INFO] onLostUser - userId: 2
+java.lang.NullPointerException
+	at de.artcom.deutschebank.brandscape.infolandschaft.visuals.diversity.ILDiversityUserManager.looseUser(ILDiversityUserManager.java:162)
+	at de.artcom.deutschebank.brandscape.infolandschaft.visuals.diversity.ILDiversityUserManager.onLostUser(ILDiversityUserManager.java:177)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cc.creativecomputing.events.CCListenerManager$ProxyInvocationHandler.invoke(CCListenerManager.java:174)
+	at $Proxy15.onLostUser(Unknown Source)
+	at cc.creativecomputing.cv.openni.CCOpenNIUserGenerator.update(CCOpenNIUserGenerator.java:336)
+	at cc.creativecomputing.cv.openni.CCOpenNI.update(CCOpenNI.java:223)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cc.creativecomputing.events.CCListenerManager$ProxyInvocationHandler.invoke(CCListenerManager.java:174)
+	at $Proxy2.update(Unknown Source)
+	at cc.creativecomputing.CCAbstractGraphicsApp.display(CCAbstractGraphicsApp.java:478)
+	at jogamp.opengl.GLDrawableHelper.displayImpl(GLDrawableHelper.java:189)
+	at jogamp.opengl.GLDrawableHelper.display(GLDrawableHelper.java:177)
+	at javax.media.opengl.awt.GLCanvas$6.run(GLCanvas.java:849)
+	at jogamp.opengl.GLDrawableHelper.invokeGLImpl(GLDrawableHelper.java:425)
+	at jogamp.opengl.GLDrawableHelper.invokeGL(GLDrawableHelper.java:364)
+	at javax.media.opengl.awt.GLCanvas$8.run(GLCanvas.java:864)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+[Fri Sep 28 11:58:23 CEST 2012] [CCOpenNIUserGenerator$NewUserObserver Line:62:update] [INFO] onNewUser - userId: 2
+[Fri Sep 28 11:58:23 CEST 2012] [CCOpenNIUserGenerator$NewUserObserver Line:63:update] [INFO]   start pose detection
+[Fri Sep 28 11:58:23 CEST 2012] [CCOpenNIUserGenerator$CalibrationStartObserver Line:129:update] [INFO] onStartCalibration - userId: 2
+User 6 -> avgJointVelocity: 0,01 -- ticks: 1
+User 6 -> avgJointVelocity: 0,01 -- ticks: 0
+[Fri Sep 28 11:58:24 CEST 2012] [CCOpenNIUserGenerator$ExitUserObserver Line:90:update] [INFO] onExitUser - userId: 6
+
+[Fri Sep 28 11:58:25 CEST 2012] [CCOpenNIUserGenerator$ExitUserObserver Line:90:update] [INFO] onExitUser - userId: 2
+
+[Fri Sep 28 11:58:28 CEST 2012] [CCOpenNIUserGenerator$CalibrationCompleteObserver Line:145:update] [INFO] onEndCalibration - userId: 2, successfull: false
+[Fri Sep 28 11:58:28 CEST 2012] [CCOpenNIUserGenerator$CalibrationCompleteObserver Line:169:update] [INFO]   Failed to calibrate user !!!
+[Fri Sep 28 11:58:28 CEST 2012] [CCOpenNIUserGenerator$CalibrationCompleteObserver Line:170:update] [INFO]   Start pose detection
+
+[Fri Sep 28 11:58:33 CEST 2012] [CCOpenNIUserGenerator$LostUserObserver Line:80:update] [INFO] onLostUser - userId: 6
+[Fri Sep 28 11:58:35 CEST 2012] [CCOpenNIUserGenerator$LostUserObserver Line:80:update] [INFO] onLostUser - userId: 2
+java.lang.NullPointerException
+	at de.artcom.deutschebank.brandscape.infolandschaft.visuals.diversity.ILDiversityUserManager.looseUser(ILDiversityUserManager.java:162)
+	at de.artcom.deutschebank.brandscape.infolandschaft.visuals.diversity.ILDiversityUserManager.onLostUser(ILDiversityUserManager.java:177)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cc.creativecomputing.events.CCListenerManager$ProxyInvocationHandler.invoke(CCListenerManager.java:174)
+	at $Proxy15.onLostUser(Unknown Source)
+	at cc.creativecomputing.cv.openni.CCOpenNIUserGenerator.update(CCOpenNIUserGenerator.java:336)
+	at cc.creativecomputing.cv.openni.CCOpenNI.update(CCOpenNI.java:223)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cc.creativecomputing.events.CCListenerManager$ProxyInvocationHandler.invoke(CCListenerManager.java:174)
+	at $Proxy2.update(Unknown Source)
+	at cc.creativecomputing.CCAbstractGraphicsApp.display(CCAbstractGraphicsApp.java:478)
+	at jogamp.opengl.GLDrawableHelper.displayImpl(GLDrawableHelper.java:189)
+	at jogamp.opengl.GLDrawableHelper.display(GLDrawableHelper.java:177)
+	at javax.media.opengl.awt.GLCanvas$6.run(GLCanvas.java:849)
+	at jogamp.opengl.GLDrawableHelper.invokeGLImpl(GLDrawableHelper.java:425)
+	at jogamp.opengl.GLDrawableHelper.invokeGL(GLDrawableHelper.java:364)
+	at javax.media.opengl.awt.GLCanvas$8.run(GLCanvas.java:864)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+[Fri Sep 28 11:58:56 CEST 2012] [CCOpenNIUserGenerator$NewUserObserver Line:62:update] [INFO] onNewUser - userId: 2
+[Fri Sep 28 11:58:56 CEST 2012] [CCOpenNIUserGenerator$NewUserObserver Line:63:update] [INFO]   start pose detection
+[Fri Sep 28 11:58:56 CEST 2012] [CCOpenNIUserGenerator$CalibrationStartObserver Line:129:update] [INFO] onStartCalibration - userId: 2
+[Fri Sep 28 11:58:57 CEST 2012] [CCOpenNIUserGenerator$CalibrationCompleteObserver Line:145:update] [INFO] onEndCalibration - userId: 2, successfull: true
+[Fri Sep 28 11:58:57 CEST 2012] [CCOpenNIUserGenerator$CalibrationCompleteObserver Line:148:update] [INFO]   User calibrated !!!
+
+[Fri Sep 28 11:59:10 CEST 2012] [CCOpenNIUserGenerator$NewUserObserver Line:62:update] [INFO] onNewUser - userId: 6
+[Fri Sep 28 11:59:10 CEST 2012] [CCOpenNIUserGenerator$NewUserObserver Line:63:update] [INFO]   start pose detection
+[Fri Sep 28 11:59:10 CEST 2012] [CCOpenNIUserGenerator$CalibrationStartObserver Line:129:update] [INFO] onStartCalibration - userId: 6
+
+[Fri Sep 28 11:59:12 CEST 2012] [CCOpenNIUserGenerator$CalibrationCompleteObserver Line:145:update] [INFO] onEndCalibration - userId: 6, successfull: true
+[Fri Sep 28 11:59:12 CEST 2012] [CCOpenNIUserGenerator$CalibrationCompleteObserver Line:148:update] [INFO]   User calibrated !!!
+
+[Fri Sep 28 11:59:17 CEST 2012] [CCOpenNIUserGenerator$NewUserObserver Line:62:update] [INFO] onNewUser - userId: 3
+[Fri Sep 28 11:59:17 CEST 2012] [CCOpenNIUserGenerator$NewUserObserver Line:63:update] [INFO]   start pose detection
+[Fri Sep 28 11:59:17 CEST 2012] [CCOpenNIUserGenerator$CalibrationStartObserver Line:129:update] [INFO] onStartCalibration - userId: 3
+
+[Fri Sep 28 11:59:17 CEST 2012] [CCOpenNIUserGenerator$CalibrationCompleteObserver Line:145:update] [INFO] onEndCalibration - userId: 3, successfull: true
+[Fri Sep 28 11:59:17 CEST 2012] [CCOpenNIUserGenerator$CalibrationCompleteObserver Line:148:update] [INFO]   User calibrated !!!
+
+[Fri Sep 28 11:59:17 CEST 2012] [CCOpenNIUserGenerator$ExitUserObserver Line:90:update] [INFO] onExitUser - userId: 6
+
+[Fri Sep 28 11:59:19 CEST 2012] [CCOpenNIUserGenerator$ExitUserObserver Line:90:update] [INFO] onExitUser - userId: 3
+
+[Fri Sep 28 11:59:26 CEST 2012] [CCOpenNIUserGenerator$NewUserObserver Line:62:update] [INFO] onNewUser - userId: 1
+[Fri Sep 28 11:59:26 CEST 2012] [CCOpenNIUserGenerator$NewUserObserver Line:63:update] [INFO]   start pose detection
+[Fri Sep 28 11:59:26 CEST 2012] [CCOpenNIUserGenerator$CalibrationStartObserver Line:129:update] [INFO] onStartCalibration - userId: 1
+
+[Fri Sep 28 11:59:27 CEST 2012] [CCOpenNIUserGenerator$CalibrationCompleteObserver Line:145:update] [INFO] onEndCalibration - userId: 1, successfull: true
+[Fri Sep 28 11:59:27 CEST 2012] [CCOpenNIUserGenerator$CalibrationCompleteObserver Line:148:update] [INFO]   User calibrated !!!
+
+[Fri Sep 28 11:59:28 CEST 2012] [CCOpenNIUserGenerator$LostUserObserver Line:80:update] [INFO] onLostUser - userId: 6
+
+[Fri Sep 28 11:59:30 CEST 2012] [CCOpenNIUserGenerator$LostUserObserver Line:80:update] [INFO] onLostUser - userId: 3
+

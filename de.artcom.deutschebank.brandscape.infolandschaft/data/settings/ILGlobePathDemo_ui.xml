@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="trace head color">
+				<uielements>
+					<CCUISlider label="red">
+						<preset value="0.62666667"/>
+					</CCUISlider>
+					<CCUISlider label="green">
+						<preset value="0.6533333"/>
+					</CCUISlider>
+					<CCUISlider label="blue">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="alpha">
+						<preset value="0.37333333"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="trace slow color">
+				<uielements>
+					<CCUISlider label="red">
+						<preset value="0.5133333"/>
+					</CCUISlider>
+					<CCUISlider label="green">
+						<preset value="0.73333335"/>
+					</CCUISlider>
+					<CCUISlider label="blue">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="alpha">
+						<preset value="0.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="axis length">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="trace duration">
+						<preset value="0.07333333"/>
+					</CCUISlider>
+					<CCUISlider label="trace fade">
+						<preset value="14.666666"/>
+					</CCUISlider>
+					<CCUISlider label="speed">
+						<preset value="0.006666667"/>
+					</CCUISlider>
+					<CCUISlider label="stroke weight">
+						<preset value="0.07333333"/>
+					</CCUISlider>
+					<CCUISlider label="time">
+						<preset value="1.7333333"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

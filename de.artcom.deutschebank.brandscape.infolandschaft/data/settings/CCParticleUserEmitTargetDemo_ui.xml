@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="smoothing">
+						<preset value="0.92"/>
+					</CCUISlider>
+					<CCUISlider label="emit amount">
+						<preset value="253.33333"/>
+					</CCUISlider>
+					<CCUISlider label="life time">
+						<preset value="25.333332"/>
+					</CCUISlider>
+					<CCUISlider label="random velocity scale">
+						<preset value="233.33333"/>
+					</CCUISlider>
+					<CCUISlider label="user velocity scale">
+						<preset value="0.26666668"/>
+					</CCUISlider>
+					<CCUISlider label="noise strength">
+						<preset value="2.0666666"/>
+					</CCUISlider>
+					<CCUISlider label="drag strength">
+						<preset value="0.18666667"/>
+					</CCUISlider>
+					<CCUISlider label="gravity strength">
+						<preset value="0.36666667"/>
+					</CCUISlider>
+					<CCUISlider label="gravity x">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="gravity y">
+						<preset value="-1.6000004"/>
+					</CCUISlider>
+					<CCUISlider label="gravity z">
+						<preset value="0.1333332"/>
+					</CCUISlider>
+					<CCUISlider label="target strength">
+						<preset value="0.13333334"/>
+					</CCUISlider>
+					<CCUISlider label="target max">
+						<preset value="14.0"/>
+					</CCUISlider>
+					<CCUISlider label="target look Ahead">
+						<preset value="23.333334"/>
+					</CCUISlider>
+					<CCUISlider label="target blend time">
+						<preset value="7.3333335"/>
+					</CCUISlider>
+					<CCUISlider label="floor Y">
+						<preset value="-300.0"/>
+					</CCUISlider>
+					<CCUISlider label="resilience">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="user scale">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="user translate">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="app speed">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="max emit speed">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="min emit speed">
+						<preset value="0.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="x">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="y">
+						<preset value="-286.66666"/>
+					</CCUISlider>
+					<CCUISlider label="z">
+						<preset value="960.0"/>
+					</CCUISlider>
+					<CCUISlider label="scale">
+						<preset value="0.9893334"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="skeleton">
+				<uielements>
+					<CCUISlider label="skeleton scale">
+						<preset value="0.12533332"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="user manager">
+				<uielements>
+					<CCUISlider label="smoothing">
+						<preset value="0.94666666"/>
+					</CCUISlider>
+					<CCUISlider label="bubble x">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="bubble y">
+						<preset value="160.0"/>
+					</CCUISlider>
+					<CCUISlider label="bubble z">
+						<preset value="-506.66666"/>
+					</CCUISlider>
+					<CCUISlider label="bubble width">
+						<preset value="333.33334"/>
+					</CCUISlider>
+					<CCUISlider label="bubble eight">
+						<preset value="66.66667"/>
+					</CCUISlider>
+					<CCUISlider label="bubble depth">
+						<preset value="193.33333"/>
+					</CCUISlider>
+					<CCUISlider label="bubble radius">
+						<preset value="49.333336"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="targets">
+				<uielements/>
+			</CCUIComponent>
+			<CCUIComponent label="skeleton particles">
+				<uielements>
+					<CCUISlider label="sphere impulse strength">
+						<preset value="7.3333335"/>
+					</CCUISlider>
+					<CCUISlider label="sphere impulse y">
+						<preset value="-366.66666"/>
+					</CCUISlider>
+					<CCUISlider label="sphere impulse radius">
+						<preset value="280.0"/>
+					</CCUISlider>
+					<CCUISlider label="sphere impulse timer">
+						<preset value="0.36666664"/>
+					</CCUISlider>
+					<CCUISlider label="target force">
+						<preset value="1.48"/>
+					</CCUISlider>
+					<CCUISlider label="target lookahead">
+						<preset value="2.1333334"/>
+					</CCUISlider>
+					<CCUISlider label="target max force">
+						<preset value="10.0"/>
+					</CCUISlider>
+					<CCUISlider label="target near distance">
+						<preset value="11.333334"/>
+					</CCUISlider>
+					<CCUISlider label="target near max force">
+						<preset value="0.19999999"/>
+					</CCUISlider>
+					<CCUISlider label="gravity">
+						<preset value="0.6666667"/>
+					</CCUISlider>
+					<CCUISlider label="attractor strength">
+						<preset value="-10.0"/>
+					</CCUISlider>
+					<CCUISlider label="attractor radius">
+						<preset value="206.66666"/>
+					</CCUISlider>
+					<CCUISlider label="attractor x">
+						<preset value="373.33337"/>
+					</CCUISlider>
+					<CCUISlider label="attractor y">
+						<preset value="426.66663"/>
+					</CCUISlider>
+					<CCUISlider label="attractor z">
+						<preset value="-253.33331"/>
+					</CCUISlider>
+					<CCUISlider label="noise force">
+						<preset value="0.36"/>
+					</CCUISlider>
+					<CCUISlider label="noise speed">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="noise scale">
+						<preset value="3.0666666"/>
+					</CCUISlider>
+					<CCUISlider label="point size">
+						<preset value="18"/>
+					</CCUISlider>
+					<CCUISlider label="floor y">
+						<preset value="-120.0"/>
+					</CCUISlider>
+					<CCUISlider label="floor resilience">
+						<preset value="0.36666667"/>
+					</CCUISlider>
+					<CCUISlider label="floor friction">
+						<preset value="0.16"/>
+					</CCUISlider>
+					<CCUISlider label="min Velocity">
+						<preset value="0.13333334"/>
+					</CCUISlider>
+					<CCUISlider label="blend target force">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="blend pow">
+						<preset value="0.232"/>
+					</CCUISlider>
+					<CCUISlider label="gradient range">
+						<preset value="0.62"/>
+					</CCUISlider>
+					<CCUISlider label="gradient blend">
+						<preset value="1.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="throw particles">
+				<uielements>
+					<CCUISlider label="point size">
+						<preset value="14"/>
+					</CCUISlider>
+					<CCUISlider label="noise strength">
+						<preset value="1.1999999"/>
+					</CCUISlider>
+					<CCUISlider label="noise scale">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="noise speed">
+						<preset value="0.33333334"/>
+					</CCUISlider>
+					<CCUISlider label="drag strength">
+						<preset value="0.14"/>
+					</CCUISlider>
+					<CCUISlider label="gravity strength">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="attractor strength">
+						<preset value="-10.0"/>
+					</CCUISlider>
+					<CCUISlider label="attractor radius">
+						<preset value="780.0"/>
+					</CCUISlider>
+					<CCUISlider label="attractor x">
+						<preset value="-1000.0"/>
+					</CCUISlider>
+					<CCUISlider label="attractor y">
+						<preset value="-1000.0"/>
+					</CCUISlider>
+					<CCUISlider label="attractor z">
+						<preset value="-1000.0"/>
+					</CCUISlider>
+					<CCUISlider label="gravity x">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="gravity y">
+						<preset value="-10.0"/>
+					</CCUISlider>
+					<CCUISlider label="gravity z">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="target strength">
+						<preset value="1.1999999"/>
+					</CCUISlider>
+					<CCUISlider label="target max">
+						<preset value="8.0"/>
+					</CCUISlider>
+					<CCUISlider label="target look Ahead">
+						<preset value="10.0"/>
+					</CCUISlider>
+					<CCUISlider label="target blend time">
+						<preset value="4.6"/>
+					</CCUISlider>
+					<CCUISlider label="target near distance">
+						<preset value="38.666664"/>
+					</CCUISlider>
+					<CCUISlider label="target near max force">
+						<preset value="0.13333334"/>
+					</CCUISlider>
+					<CCUISlider label="app speed">
+						<preset value="1.3199999"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="user">
+				<uielements>
+					<CCUISlider label="emit amount">
+						<preset value="1.9999996"/>
+					</CCUISlider>
+					<CCUISlider label="life time">
+						<preset value="19.333332"/>
+					</CCUISlider>
+					<CCUISlider label="random velocity scale">
+						<preset value="106.66667"/>
+					</CCUISlider>
+					<CCUISlider label="user velocity scale">
+						<preset value="0.33333334"/>
+					</CCUISlider>
+					<CCUISlider label="max emit speed">
+						<preset value="10.0"/>
+					</CCUISlider>
+					<CCUISlider label="min emit speed">
+						<preset value="0.59999996"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="bubble">
+				<uielements>
+					<CCUISlider label="close time">
+						<preset value="16.8"/>
+					</CCUISlider>
+					<CCUISlider label="open progress">
+						<preset value="0.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

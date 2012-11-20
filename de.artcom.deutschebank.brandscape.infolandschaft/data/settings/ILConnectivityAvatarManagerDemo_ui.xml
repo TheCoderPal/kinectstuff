@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="skeleton">
+				<uielements>
+					<CCUISlider label="skeleton scale">
+						<preset value="0.10666667"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="app">
+				<uielements/>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+	<CCControlPresetTab label="bloom" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="bloom">
+				<uielements>
+					<CCUISlider label="highlightRange">
+						<preset value="0.38"/>
+					</CCUISlider>
+					<CCUISlider label="highlightScale">
+						<preset value="2.4666667"/>
+					</CCUISlider>
+					<CCUISlider label="highlightPow">
+						<preset value="1.2666667"/>
+					</CCUISlider>
+					<CCUIButton label="debug bloom">
+						<preset value="false"/>
+					</CCUIButton>
+					<CCUISlider label="blur radius">
+						<preset value="18.666666"/>
+					</CCUISlider>
+					<CCUISlider label="blur radius 2">
+						<preset value="6.333333"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<CCControlPresetTab label="avatar" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="trace head color">
+				<uielements>
+					<CCUISlider label="red">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="green">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="blue">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="alpha">
+						<preset value="1.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="trace slow color">
+				<uielements>
+					<CCUISlider label="red">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="green">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="blue">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="alpha">
+						<preset value="0.033333335"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="straight settings">
+				<uielements>
+					<CCUISlider label="trace duration">
+						<preset value="0.14"/>
+					</CCUISlider>
+					<CCUISlider label="trace fade">
+						<preset value="82.666664"/>
+					</CCUISlider>
+					<CCUISlider label="stroke weight">
+						<preset value="0.086666666"/>
+					</CCUISlider>
+					<CCUIButton label="draw mesh">
+						<preset value="true"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="blurred settings">
+				<uielements>
+					<CCUISlider label="trace duration">
+						<preset value="0.011333333"/>
+					</CCUISlider>
+					<CCUISlider label="trace fade">
+						<preset value="1.3333334"/>
+					</CCUISlider>
+					<CCUISlider label="stroke weight">
+						<preset value="0.18666667"/>
+					</CCUISlider>
+					<CCUIButton label="draw mesh">
+						<preset value="true"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="avatar">
+				<uielements>
+					<CCUISlider label="speed">
+						<preset value="0.012"/>
+					</CCUISlider>
+					<CCUISlider label="time">
+						<preset value="1.0533333"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="refraction">
+				<uielements>
+					<CCUISlider label="amount">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="alpha">
+						<preset value="0.17333333"/>
+					</CCUISlider>
+					<CCUISlider label="eta">
+						<preset value="0.42666668"/>
+					</CCUISlider>
+					<CCUISlider label="fresnel power">
+						<preset value="1.5999999"/>
+					</CCUISlider>
+					<CCUISlider label="light x">
+						<preset value="-0.013333321"/>
+					</CCUISlider>
+					<CCUISlider label="light y">
+						<preset value="0.06666672"/>
+					</CCUISlider>
+					<CCUISlider label="light z">
+						<preset value="0.06666672"/>
+					</CCUISlider>
+					<CCUISlider label="light amount">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="fresnelPow">
+						<preset value="10.0"/>
+					</CCUISlider>
+					<CCUISlider label="specularPow">
+						<preset value="10.0"/>
+					</CCUISlider>
+					<CCUISlider label="specularBrightPow">
+						<preset value="5.04"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="manager">
+				<uielements>
+					<CCUISlider label="smoothing">
+						<preset value="0.82666665"/>
+					</CCUISlider>
+					<CCUISlider label="openNI rotate X">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="openNI translate X">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="openNI translate Y">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="openNI translate Z">
+						<preset value="-3333.3333"/>
+					</CCUISlider>
+					<CCUISlider label="alpha">
+						<preset value="0.62"/>
+					</CCUISlider>
+					<CCUIButton label="draw debug">
+						<preset value="false"/>
+					</CCUIButton>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+</ui>

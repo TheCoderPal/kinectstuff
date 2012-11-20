@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="emit particles">
+						<preset value="1"/>
+					</CCUISlider>
+					<CCUISlider label="point size">
+						<preset value="13"/>
+					</CCUISlider>
+					<CCUISlider label="gravity">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="force field">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="force field scale">
+						<preset value="0.27333334"/>
+					</CCUISlider>
+					<CCUISlider label="force field speed">
+						<preset value="0.33333334"/>
+					</CCUISlider>
+					<CCUISlider label="attractor">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="target">
+						<preset value="0.013333334"/>
+					</CCUISlider>
+					<CCUISlider label="attractor radius">
+						<preset value="106.66667"/>
+					</CCUISlider>
+					<CCUISlider label="floor y">
+						<preset value="-1000.0"/>
+					</CCUISlider>
+					<CCUISlider label="floor resilience">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="floor friction">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="min Velocity">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="floor gray">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="mirror">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="mirror correction">
+						<preset value="0.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>

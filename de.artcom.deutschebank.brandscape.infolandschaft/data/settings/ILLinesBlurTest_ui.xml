@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="trace head color">
+				<uielements>
+					<CCUISlider label="red">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="green">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="blue">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="alpha">
+						<preset value="1.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="trace slow color">
+				<uielements>
+					<CCUISlider label="red">
+						<preset value="0.56666666"/>
+					</CCUISlider>
+					<CCUISlider label="green">
+						<preset value="0.56"/>
+					</CCUISlider>
+					<CCUISlider label="blue">
+						<preset value="0.56"/>
+					</CCUISlider>
+					<CCUISlider label="alpha">
+						<preset value="0.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="radius">
+						<preset value="200.0"/>
+					</CCUISlider>
+					<CCUISlider label="radius inc">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="pow">
+						<preset value="0.93333334"/>
+					</CCUISlider>
+					<CCUISlider label="trace duration">
+						<preset value="0.15333334"/>
+					</CCUISlider>
+					<CCUISlider label="trace fade">
+						<preset value="24.666668"/>
+					</CCUISlider>
+					<CCUISlider label="speed">
+						<preset value="0.462"/>
+					</CCUISlider>
+					<CCUISlider label="strokeWeight">
+						<preset value="10.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+	<CCControlPresetTab label="blur" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="blur">
+				<uielements>
+					<CCUISlider label="blur radius">
+						<preset value="13.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+</ui>

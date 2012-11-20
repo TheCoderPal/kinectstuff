@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ui>
+	<CCControlPresetTab label="app" selectedpreset="0" numberofpresets="1">
+		<uielements>
+			<CCUIPresetControl label="presets">
+				<uielements/>
+			</CCUIPresetControl>
+			<CCUIComponent label="position">
+				<uielements>
+					<CCUISlider label="time">
+						<preset value="0.6666667"/>
+					</CCUISlider>
+					<CCUISlider label="x">
+						<preset value="-386.66663"/>
+					</CCUISlider>
+					<CCUISlider label="y">
+						<preset value="-133.33331"/>
+					</CCUISlider>
+					<CCUISlider label="z">
+						<preset value="440.0"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="targets">
+				<uielements/>
+			</CCUIComponent>
+			<CCUIComponent label="particles">
+				<uielements>
+					<CCUISlider label="target force">
+						<preset value="0.68"/>
+					</CCUISlider>
+					<CCUISlider label="gravity">
+						<preset value="0.0"/>
+					</CCUISlider>
+					<CCUISlider label="noise force">
+						<preset value="1.5066667"/>
+					</CCUISlider>
+					<CCUISlider label="noise speed">
+						<preset value="1.0"/>
+					</CCUISlider>
+					<CCUISlider label="noise scale">
+						<preset value="4.266667"/>
+					</CCUISlider>
+					<CCUISlider label="reduction">
+						<preset value="0.15333334"/>
+					</CCUISlider>
+					<CCUISlider label="point size">
+						<preset value="1"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+		</uielements>
+		<presetnames>
+			<presetname name="Preset:0"/>
+		</presetnames>
+	</CCControlPresetTab>
+	<globalsettings selectedpreset="0" numberofpresets="0" label="global">
+		<presetnames/>
+	</globalsettings>
+</ui>
