@@ -200,6 +200,7 @@ how diverse we are
 at Deutsche.]]></de>
     	</text>
     </location>
+    <!-- 
     <location>
     	<name>Geneva</name>
     	<value>51.50</value>
@@ -226,6 +227,8 @@ countries outside Germany.]]></en>
 countries outside Germany.]]></de>
     	</text>
     </location>
+    
+     -->
     <location>
     	<name>Copenhagen</name>
     	<value>42.17</value>
@@ -240,6 +243,7 @@ how diverse we are
 at Deutsche.]]></de>
     	</text>
     </location>
+    <!--
     <location>
     	<name>Stockholm</name>
     	<value>41.38</value>
@@ -254,6 +258,8 @@ at Deutsche.]]></de>
  17% of all staff.]]></de>
     	</text>
     </location>
+      -->
+    <!-- 
      <location>
     	<name>Brussels</name>
     	<value>40.85</value>
@@ -266,6 +272,7 @@ countries outside Germany.]]></en>
 countries outside Germany.]]></de>
     	</text>
     </location>
+     -->
     <location>
     	<name>Oslo</name>
     	<value>38.61</value>
@@ -294,6 +301,7 @@ at Deutsche.]]></de>
  17% of all staff.]]></de>
     	</text>
     </location>
+    <!-- 
      <location>
     	<name>Luxemburg</name>
     	<value>36.84</value>
@@ -306,6 +314,7 @@ countries outside Germany.]]></en>
 countries outside Germany.]]></de>
     	</text>
     </location>
+     -->
     <location>
     	<name>Madrid</name>
     	<value>35.75</value>
@@ -348,6 +357,7 @@ countries outside Germany.]]></en>
 countries outside Germany.]]></de>
     	</text>
     </location>
+    <!-- 
     <location>
     	<name>Milan</name>
     	<value>35.37</value>
@@ -362,6 +372,7 @@ how diverse we are
 at Deutsche.]]></de>
     	</text>
     </location>
+     -->
     <location>
     	<name>Rome</name>
     	<value>34.31</value>
@@ -388,6 +399,7 @@ countries outside Germany.]]></en>
 countries outside Germany.]]></de>
     	</text>
     </location>
+    <!-- 
     <location>
     	<name>Budapest</name>
     	<value>24.84</value>
@@ -402,6 +414,7 @@ how diverse we are
 at Deutsche.]]></de>
     	</text>
     </location>	
+     -->
     <location>
     	<name>Lisbon</name>
     	<value>24.74</value>

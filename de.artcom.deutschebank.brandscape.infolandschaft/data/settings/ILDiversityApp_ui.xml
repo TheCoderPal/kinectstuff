@@ -8,7 +8,7 @@
 			<CCUIComponent label="bar">
 				<uielements>
 					<CCUISlider label="x">
-						<preset value="0.0"/>
+						<preset value="7.9999695"/>
 					</CCUISlider>
 					<CCUISlider label="y">
 						<preset value="0.0"/>
@@ -17,25 +17,35 @@
 						<preset value="70.0"/>
 					</CCUISlider>
 					<CCUISlider label="scale x">
-						<preset value="2.0913334"/>
+						<preset value="0.93133336"/>
 					</CCUISlider>
 					<CCUISlider label="scale y">
-						<preset value="1.9173334"/>
+						<preset value="0.9236"/>
 					</CCUISlider>
 					<CCUISlider label="alpha">
-						<preset value="0.0"/>
+						<preset value="0.11818182"/>
 					</CCUISlider>
 					<CCUISlider label="hue">
-						<preset value="0.5133333"/>
+						<preset value="0.75454545"/>
 					</CCUISlider>
 					<CCUISlider label="saturation">
-						<preset value="0.35333332"/>
+						<preset value="0.46363637"/>
 					</CCUISlider>
 					<CCUISlider label="brightness">
-						<preset value="0.48666668"/>
+						<preset value="1.0"/>
 					</CCUISlider>
 					<CCUISlider label="rotate">
-						<preset value="0.0"/>
+						<preset value="-1.199997"/>
+					</CCUISlider>
+				</uielements>
+			</CCUIComponent>
+			<CCUIComponent label="app">
+				<uielements>
+					<CCUISlider label="mask top">
+						<preset value="35.333332"/>
+					</CCUISlider>
+					<CCUISlider label="mask bottom">
+						<preset value="18.666666"/>
 					</CCUISlider>
 				</uielements>
 			</CCUIComponent>
@@ -142,7 +152,7 @@
 			<CCUIComponent label="bubble">
 				<uielements>
 					<CCUISlider label="close time">
-						<preset value="11.0"/>
+						<preset value="6.4"/>
 					</CCUISlider>
 					<CCUISlider label="close free time">
 						<preset value="0.0"/>
@@ -236,7 +246,7 @@
 						<preset value="2733.3335"/>
 					</CCUISlider>
 					<CCUISlider label="angle change thresh">
-						<preset value="18.666666"/>
+						<preset value="18.333334"/>
 					</CCUISlider>
 					<CCUISlider label="angle min thresh">
 						<preset value="145.2"/>
@@ -274,16 +284,16 @@
 						<preset value="2.0"/>
 					</CCUISlider>
 					<CCUISlider label="lookahead">
-						<preset value="2.2666667"/>
+						<preset value="4.6666665"/>
 					</CCUISlider>
 					<CCUISlider label="max force">
-						<preset value="3.6000001"/>
+						<preset value="0.0"/>
 					</CCUISlider>
 					<CCUISlider label="near distance">
-						<preset value="14.666666"/>
+						<preset value="0.0"/>
 					</CCUISlider>
 					<CCUISlider label="near max force">
-						<preset value="1.1999999"/>
+						<preset value="0.0"/>
 					</CCUISlider>
 				</uielements>
 			</CCUIComponent>
@@ -321,13 +331,13 @@
 						<preset value="0.4666667"/>
 					</CCUISlider>
 					<CCUISlider label="noise force">
-						<preset value="0.33333334"/>
+						<preset value="0.6933333"/>
 					</CCUISlider>
 					<CCUISlider label="noise speed">
-						<preset value="1.0"/>
+						<preset value="0.19333333"/>
 					</CCUISlider>
 					<CCUISlider label="noise scale">
-						<preset value="6.0"/>
+						<preset value="6.3999996"/>
 					</CCUISlider>
 					<CCUISlider label="point size">
 						<preset value="46"/>
@@ -367,6 +377,9 @@
 					<CCUISlider label="mirror correction">
 						<preset value="0.06"/>
 					</CCUISlider>
+					<CCUIButton label="reset particles">
+						<preset value="false"/>
+					</CCUIButton>
 					<CCUISlider label="back">
 						<preset value="-1000.0"/>
 					</CCUISlider>
@@ -458,6 +471,9 @@
 					<CCUIButton label="show headline">
 						<preset value="true"/>
 					</CCUIButton>
+					<CCUIButton label="show content">
+						<preset value="false"/>
+					</CCUIButton>
 				</uielements>
 			</CCUIComponent>
 			<CCUIComponent label="tips">
@@ -466,10 +482,10 @@
 						<preset value="11.8"/>
 					</CCUISlider>
 					<CCUISlider label="tip x">
-						<preset value="200.0"/>
+						<preset value="-46.666687"/>
 					</CCUISlider>
 					<CCUISlider label="tip y">
-						<preset value="53.333252"/>
+						<preset value="-40.0"/>
 					</CCUISlider>
 				</uielements>
 			</CCUIComponent>
@@ -479,7 +495,7 @@
 						<preset value="12.0"/>
 					</CCUISlider>
 					<CCUISlider label="tip x">
-						<preset value="-400.0"/>
+						<preset value="-921.3333"/>
 					</CCUISlider>
 					<CCUISlider label="tip y">
 						<preset value="400.0"/>
@@ -506,20 +522,23 @@
 			<CCUIComponent label="transform">
 				<uielements>
 					<CCUISlider label="openNI rotate X">
-						<preset value="0.0"/>
+						<preset value="-28.800003"/>
 					</CCUISlider>
 					<CCUISlider label="openNI translate X">
 						<preset value="0.0"/>
 					</CCUISlider>
 					<CCUISlider label="openNI translate Y">
-						<preset value="200.0"/>
+						<preset value="-733.333"/>
 					</CCUISlider>
 					<CCUISlider label="openNI translate Z">
-						<preset value="5000.0"/>
+						<preset value="200.0"/>
 					</CCUISlider>
 					<CCUISlider label="openNI scale">
 						<preset value="1.0"/>
 					</CCUISlider>
+					<CCUIButton label="openNI flip z">
+						<preset value="true"/>
+					</CCUIButton>
 					<CCUIButton label="draw openni">
 						<preset value="false"/>
 					</CCUIButton>
@@ -557,28 +576,28 @@
 			<CCUIComponent label="area">
 				<uielements>
 					<CCUISlider label="x1">
-						<preset value="1893.3335"/>
+						<preset value="1520.0"/>
 					</CCUISlider>
 					<CCUISlider label="z1">
-						<preset value="-3333.333"/>
+						<preset value="-2573.3335"/>
 					</CCUISlider>
 					<CCUISlider label="x2">
-						<preset value="-2000.0"/>
+						<preset value="-1626.6666"/>
 					</CCUISlider>
 					<CCUISlider label="z2">
-						<preset value="-3200.0"/>
+						<preset value="-2493.333"/>
 					</CCUISlider>
 					<CCUISlider label="x3">
 						<preset value="-1786.6666"/>
 					</CCUISlider>
 					<CCUISlider label="z3">
-						<preset value="2066.6667"/>
+						<preset value="-3866.6665"/>
 					</CCUISlider>
 					<CCUISlider label="x4">
-						<preset value="2000.0"/>
+						<preset value="1013.33325"/>
 					</CCUISlider>
 					<CCUISlider label="z4">
-						<preset value="2066.6667"/>
+						<preset value="-4000.0"/>
 					</CCUISlider>
 				</uielements>
 			</CCUIComponent>

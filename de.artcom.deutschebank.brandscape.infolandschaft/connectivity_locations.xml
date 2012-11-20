@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <locations>
 	<location>
-		<x>414.0</x>
-		<y>612.0</y>
+		<x>471.0</x>
+		<y>577.0</y>
+		<align>LEFT</align>
 	</location>
 	<location>
-		<x>572.0</x>
-		<y>963.0</y>
+		<x>567.0</x>
+		<y>839.0</y>
+		<align>LEFT</align>
 	</location>
 	<location>
-		<x>953.0</x>
-		<y>1098.0</y>
+		<x>1336.0</x>
+		<y>872.0</y>
+		<align>LEFT</align>
 	</location>
 	<location>
-		<x>1381.0</x>
-		<y>934.0</y>
+		<x>1452.0</x>
+		<y>627.0</y>
+		<align>LEFT</align>
 	</location>
 	<location>
-		<x>1475.0</x>
-		<y>632.0</y>
+		<x>963.0</x>
+		<y>997.0</y>
+		<align>LEFT</align>
 	</location>
 </locations>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<Timeline lower_bound="0.0" upper_bound="66.08625416409075">
-	<Transport speed="1.0" loop_start="2.0" loop_end="6.0" loop_active="true">
+<Timeline lower_bound="99.99" upper_bound="139.27687878645247">
+	<Transport speed="1.0" loop_start="0.0" loop_end="198.0" loop_active="true">
 		<TrackData/>
 	</Transport>
 	<Tracks>
@@ -143,13 +143,13 @@
 						<ControlPoint type="HANDLE" time="-1.0" value="0.045454545454545414"/>
 						<ControlPoint type="HANDLE" time="1.0" value="0.045454545454545414"/>
 					</ControlPoint>
-					<ControlPoint type="BEZIER" time="14.60588381329384" value="0.2272727272727273">
-						<ControlPoint type="HANDLE" time="9.683345487836048" value="0.2272727272727273"/>
-						<ControlPoint type="HANDLE" time="19.52842213875163" value="0.2272727272727273"/>
+					<ControlPoint type="BEZIER" time="15.0" value="0.2008196721311475">
+						<ControlPoint type="HANDLE" time="10.0" value="0.2008196721311475"/>
+						<ControlPoint type="HANDLE" time="20.0" value="0.2008196721311475"/>
 					</ControlPoint>
-					<ControlPoint type="BEZIER" time="174.0" value="0.2375565610859729">
-						<ControlPoint type="HANDLE" time="167.73871119145113" value="0.2375565610859729"/>
-						<ControlPoint type="HANDLE" time="180.26128880854887" value="0.2375565610859729"/>
+					<ControlPoint type="BEZIER" time="174.0" value="0.2008196721311475">
+						<ControlPoint type="HANDLE" time="167.73871119145113" value="0.2008196721311475"/>
+						<ControlPoint type="HANDLE" time="180.26128880854887" value="0.2008196721311475"/>
 					</ControlPoint>
 					<ControlPoint type="BEZIER" time="198.0" value="0.042986425339366474">
 						<ControlPoint type="HANDLE" time="189.13598098177732" value="0.042986425339366474"/>
