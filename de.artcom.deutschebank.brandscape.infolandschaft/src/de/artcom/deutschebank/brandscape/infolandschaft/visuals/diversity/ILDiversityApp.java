@@ -12,6 +12,7 @@ public class ILDiversityApp extends ILAbstractApp {
 	}
 
 	public static void main(String[] args) {
+		/*
 		int width = (int)(ILApp.WIDTH * ILApp.SCALE);
 		int height = (int)(ILApp.HEIGHT * ILApp.SCALE);
 		CCApplicationManager myManager = new CCApplicationManager(ILDiversityApp.class);
@@ -22,15 +23,15 @@ public class ILDiversityApp extends ILAbstractApp {
 		// myManager.settings().uiTranslation(120, 130);
 		// myManager.settings().displayMode(CCDisplayMode.FULLSCREEN);
 		myManager.settings().antialiasing(8);
-		myManager.start();
+		myManager.start();*/
 		
-//		CCApplicationManager myManager = new CCApplicationManager(ILApp.class);
-//		myManager.settings().size(1920, 1080);
-//		myManager.settings().undecorated(true);
-//		myManager.settings().location(0,0);
-//		myManager.settings().antialiasing(8);
-//		myManager.settings().uiTranslation(0, 40);
+		CCApplicationManager myManager = new CCApplicationManager(ILDiversityApp.class);
+		myManager.settings().size(1920, 1080);
+		myManager.settings().undecorated(true);
+		myManager.settings().location(0,0);
+		myManager.settings().antialiasing(8);
+		myManager.settings().uiTranslation(0, 40);
 ////		myManager.settings().display(1);
-//		myManager.start();
+		myManager.start();
 	}
 }

@@ -28,6 +28,7 @@ import cc.creativecomputing.events.CCMouseAdapter;
 import cc.creativecomputing.events.CCMouseEvent;
 import cc.creativecomputing.events.CCMouseMotionListener;
 import cc.creativecomputing.graphics.CCGraphics;
+import cc.creativecomputing.graphics.font.text.CCTextAlign;
 import cc.creativecomputing.math.CCVector2f;
 import cc.creativecomputing.xml.CCXMLElement;
 import cc.creativecomputing.xml.CCXMLIO;
@@ -44,10 +45,16 @@ public class ILContentLocations {
 	public static class ILContentLocation{
 		private boolean _myIsTaken;
 		private CCVector2f _myLocation;
+		private CCTextAlign _myAlign;
 		
 		private ILContentLocation(float theX, float theY) {
 			_myIsTaken = false;
 			_myLocation = new CCVector2f(theX, theY);
+			_myAlign = CCTextAlign.LEFT;
+		}
+		
+		public CCTextAlign align(){
+			return _myAlign;
 		}
 		
 		public CCVector2f location() {
@@ -103,6 +110,7 @@ public class ILContentLocations {
 					CCXMLElement myLocationXML = myData.createChild("location");
 					myLocationXML.createChild("x", myLocation.location().x);
 					myLocationXML.createChild("y", myLocation.location().y);
+					myLocationXML.createChild("align", myLocation.align().name());
 				}
 				CCXMLIO.saveXMLElement(myData, _myFile);
 			}
@@ -136,10 +144,15 @@ public class ILContentLocations {
 		CCXMLElement myData = CCXMLIO.createXMLElement(_myFile);
 		if(myData != null) {
 			for(CCXMLElement myLocationXML:myData) {
-				_myContentLocations.add(new ILContentLocation(
+				ILContentLocation myLocation = new ILContentLocation(
 					myLocationXML.child("x").floatContent(),
 					myLocationXML.child("y").floatContent()
-				));
+				);
+				CCXMLElement myAlignXML = myLocationXML.child("align");
+				if(myAlignXML != null){
+					myLocation._myAlign = CCTextAlign.valueOf(myAlignXML.content());
+				}
+				_myContentLocations.add(myLocation);
 			}
 		}
 	}

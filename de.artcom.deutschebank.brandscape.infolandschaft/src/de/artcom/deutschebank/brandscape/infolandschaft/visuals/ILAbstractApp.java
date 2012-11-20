@@ -35,8 +35,11 @@ public abstract class ILAbstractApp extends CCApp {
 	
 	
 	
-	@CCControl(name = "mask", min = 0, max = 100)
-	private float _cMask = 0;
+	@CCControl(name = "mask top", min = 0, max = 100)
+	private float _cMaskTop = 0;
+	
+	@CCControl(name = "mask bottom", min = 0, max = 100)
+	private float _cMaskBottom = 0;
 	
 	private class ILOpenNIControls{
 	
@@ -49,11 +52,14 @@ public abstract class ILAbstractApp extends CCApp {
 		@CCControl(name = "openNI translate Y", min = -5000f, max = 5000f)
 		private float _cTranslateY = 0;
 	
-		@CCControl(name = "openNI translate Z", min = -5000f, max = 5000f)
+		@CCControl(name = "openNI translate Z", min = 0f, max = 10000f)
 		private float _cTranslateZ = 0;
 	
 		@CCControl(name = "openNI scale", min = 0.1f, max = 1f)
 		private float _cScale = 0;
+		
+		@CCControl(name = "openNI flip z")
+		private boolean _cFlipZ = false;
 		
 		@CCControl(name = "draw openni")
 		private boolean _cDrawOpenNI = false;
@@ -88,14 +94,15 @@ public abstract class ILAbstractApp extends CCApp {
 		
 		_myBar = new ILBar();
 		addControls("app", "bar", 0, _myBar);
+		addControls("app", "app", 0, this);
 		
 		g.reportError(false);
 		
 		_myOpenNI = new CCOpenNI(this);
-//		_myOpenNI.mirror(true);
+		_myOpenNI.mirror(true);
 //		_myOpenNI.openFileRecording("brandspace_record1.oni");
 //		_myOpenNI.openFileRecording("kinect/kinect_00.oni");
-		_myOpenNI.openFileRecording("SkeletonRec.oni");
+//		_myOpenNI.openFileRecording("SkeletonRec.oni");
 		_myDepthGenerator = _myOpenNI.depthGenerator();
 		_myOpenNI.imageGenerator();
 		_myUserGenerator = _myOpenNI.createUserGenerator();
@@ -127,7 +134,7 @@ public abstract class ILAbstractApp extends CCApp {
 		
 		
 		_myArcball = new CCArcball(this);
-		fixUpdateTime(1/30f);
+		//fixUpdateTime(1/30f);
 	}
 	
 	public abstract void initThemes();
@@ -145,7 +152,12 @@ public abstract class ILAbstractApp extends CCApp {
 			_myOpenNIControls._cTranslateZ
 		);
 		_myOpenNI.transformationMatrix().rotateX(CCMath.radians(_myOpenNIControls._cRotateX));
-		_myOpenNI.transformationMatrix().scale(_myOpenNIControls._cScale);
+		
+		if(_myOpenNIControls._cFlipZ){
+			_myOpenNI.transformationMatrix().scale(_myOpenNIControls._cScale, _myOpenNIControls._cScale, -_myOpenNIControls._cScale);
+		}else{
+			_myOpenNI.transformationMatrix().scale(_myOpenNIControls._cScale);
+		}
 		
 		_myInteractionArea.update(theDeltaTime);
 
@@ -215,7 +227,8 @@ public abstract class ILAbstractApp extends CCApp {
 		
 		g.clearDepthBuffer();
 		g.color(0);
-		g.rect(-width/2, height/2 - _cMask, width,_cMask);
+		g.rect(-width/2, height/2 - _cMaskTop, width,_cMaskTop);
+		g.rect(-width/2, -height/2, width, _cMaskBottom);
 	}
 	
 	@Override

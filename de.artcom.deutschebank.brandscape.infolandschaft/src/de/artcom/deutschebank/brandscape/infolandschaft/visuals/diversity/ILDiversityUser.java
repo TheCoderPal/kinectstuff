@@ -253,8 +253,8 @@ public class ILDiversityUser extends ILUser {
 	public void drawDebug(CCGraphics g) {
 		if(!_cDrawDebug)return;
 		
-		_myThrowCheckerLeft.drawValues(g, g.width);
-		_myThrowCheckerRight.drawValues(g, g.width);
+	//	_myThrowCheckerLeft.drawValues(g, g.width);
+	//	_myThrowCheckerRight.drawValues(g, g.width);
 		
 		_myStepCheckerLeft.drawValues(g, g.width);
 		_myStepCheckerRight.drawValues(g, g.width);

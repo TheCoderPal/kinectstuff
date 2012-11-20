@@ -31,7 +31,7 @@ import de.artcom.deutschebank.brandscape.infolandschaft.visuals.diversity.ILDive
 
 public class ILApp extends CCApp {
 	
-	public static final float SCALE = 0.5f;
+	public static final float SCALE = 1f;
 	
 	public static final int WIDTH = 1920;
 	
@@ -110,7 +110,7 @@ public class ILApp extends CCApp {
 		g.reportError(false);
 		
 		_myOpenNI = new CCOpenNI(this);
-//		_myOpenNI.mirror(true);
+		_myOpenNI.mirror(true);
 //		_myOpenNI.openFileRecording("brandspace_record1.oni");
 //		_myOpenNI.openFileRecording("kinect/kinect_00.oni");
 		_myOpenNI.openFileRecording("SkeletonRec.oni");

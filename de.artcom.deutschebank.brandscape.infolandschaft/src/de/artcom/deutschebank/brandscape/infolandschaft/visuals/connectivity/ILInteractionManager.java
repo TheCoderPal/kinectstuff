@@ -206,7 +206,10 @@ public class ILInteractionManager {
 					_myOpenTime = 0;
 					_myContentLocation.isTaken(true);
 					_myLocation.content().position(_myContentLocation.location());
+					_myLocation.content().align(_myContentLocation.align());
+					_myLocation.content().text(_myLocation.content().text());
 					_myLocation.contentShadow().position(_myContentLocation.location());
+					_myLocation.contentShadow().align(_myContentLocation.align());
 				}
 			}
 			_myLocation.selectProgress(_mySelectTime / _cSelectTime);
@@ -215,12 +218,9 @@ public class ILInteractionManager {
 			
 			_myOpenTime += theDeltaTime;
 			
-			_myLabelProgress = CCMath.saturate((_cCloseTime - _myOpenTime) / _cOpenTime);
-			_myTextProgress = CCMath.min(_myLabelProgress, _myOpenTime / _cOpenTime);
+			_myTextProgress = CCMath.saturate((_cCloseTime - _myOpenTime) / _cOpenTime);
+			_myTextProgress = CCMath.min(_myTextProgress, _myOpenTime / _cOpenTime);
 			_myRingProgress = CCMath.saturate(1 - _myOpenTime / _cCloseTime);
-			System.out.println();
-			System.out.println(_myOpenTime +":" +(_cCloseTime - _myOpenTime));
-			System.out.println(((_cCloseTime - _myOpenTime) / _cOpenTime)+":"+(_myOpenTime / _cOpenTime));
 			
 			if(_myOpenTime > _cCloseTime) {
 				_myIsSelected = false;

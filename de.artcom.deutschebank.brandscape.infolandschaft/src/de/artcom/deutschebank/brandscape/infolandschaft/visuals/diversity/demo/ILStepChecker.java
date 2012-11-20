@@ -29,6 +29,7 @@ import cc.creativecomputing.cv.openni.CCOpenNIUser.CCUserJointType;
 import cc.creativecomputing.events.CCListenerManager;
 import cc.creativecomputing.graphics.CCDrawMode;
 import cc.creativecomputing.graphics.CCGraphics;
+import cc.creativecomputing.math.CCMath;
 import cc.creativecomputing.math.CCVecMath;
 import cc.creativecomputing.math.CCVector3f;
 
@@ -104,7 +105,7 @@ public class ILStepChecker {
 		if (_myAngles.size() > 1000)
 			_myAngles.remove(0);
 		
-		float myAngle = CCVecMath.angle(CCVecMath.subtract(myElbow, myHand).normalize(), CCVecMath.subtract(myElbow, myShoulder).normalize());
+		float myAngle = CCMath.degrees(CCVecMath.angle(CCVecMath.subtract(myElbow, myHand).normalize(), CCVecMath.subtract(myElbow, myShoulder).normalize()));
 		
 		if(_myLastAngle == 0) {
 			_myLastAngle = myAngle;

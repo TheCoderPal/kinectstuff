@@ -58,7 +58,7 @@ public class ILConnectivityTheme extends ILTheme{
 	public ILConnectivityTheme(CCApp theApp, CCOpenNIInteractionArea theArea) {
 		theApp.addControls("connectivity", "app", this);
 		
-		_myBackgroundTexture = new CCTexture2D(CCTextureIO.newTextureData("room/room09.png"));
+		_myBackgroundTexture = new CCTexture2D(CCTextureIO.newTextureData("room/background.jpg"));
 		_myGlobeBackgroundTexture = new CCTexture2D(CCTextureIO.newTextureData("room/room09c.png"));
 		_myGlobeForegroundTexture = new CCTexture2D(CCTextureIO.newTextureData("room/room09d.png"));
 
