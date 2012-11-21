@@ -23,10 +23,10 @@
 						<preset value="0.9236"/>
 					</CCUISlider>
 					<CCUISlider label="alpha">
-						<preset value="0.11818182"/>
+						<preset value="0.0"/>
 					</CCUISlider>
 					<CCUISlider label="hue">
-						<preset value="0.75454545"/>
+						<preset value="0.0"/>
 					</CCUISlider>
 					<CCUISlider label="saturation">
 						<preset value="0.46363637"/>
@@ -202,16 +202,13 @@
 					</CCUISlider>
 				</uielements>
 			</CCUIComponent>
-			<CCUIComponent label="sphere impulse controls">
+			<CCUIComponent label="step impulse controls">
 				<uielements>
 					<CCUISlider label="impulse strength">
-						<preset value="0.0"/>
+						<preset value="2.1333334"/>
 					</CCUISlider>
 					<CCUISlider label="impulse radius">
-						<preset value="0.0"/>
-					</CCUISlider>
-					<CCUISlider label="impulse timer">
-						<preset value="0.0"/>
+						<preset value="76.66667"/>
 					</CCUISlider>
 					<CCUIButton label="draw debug">
 						<preset value="false"/>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Timeline lower_bound="99.86152208988642" upper_bound="139.14840087633888">
+	<Transport speed="1.0" loop_start="0.0" loop_end="198.0" loop_active="true">
+		<TrackData/>
+	</Transport>
+	<Tracks>
+		<GroupTrack name="/app/bar" open="true" red="191" green="48" blue="48">
+			<Track address="/app/bar/alpha" mute="false" accumulate="false" type="DOUBLE" min="0.0" max="1.0" red="191" green="48" blue="48">
+				<TrackData>
+					<ControlPoint type="LINEAR" time="0.0" value="1.0"/>
+					<ControlPoint type="LINEAR" time="10.0" value="0.0"/>
+					<ControlPoint type="BEZIER" time="180.0" value="0.0">
+						<ControlPoint type="HANDLE" time="174.0" value="0.0"/>
+						<ControlPoint type="HANDLE" time="186.0" value="0.0"/>
+					</ControlPoint>
+					<ControlPoint type="BEZIER" time="194.0" value="1.0">
+						<ControlPoint type="HANDLE" time="188.0" value="1.0"/>
+						<ControlPoint type="HANDLE" time="200.0" value="1.0"/>
+					</ControlPoint>
+				</TrackData>
+			</Track>
+			<Track address="/app/bar/hue" mute="false" accumulate="false" type="DOUBLE" min="0.0" max="1.0" red="191" green="48" blue="48">
+				<TrackData>
+					<ControlPoint type="LINEAR" time="0.0" value="0.0636363636363636"/>
+				</TrackData>
+			</Track>
+			<Track address="/app/bar/saturation" mute="false" accumulate="false" type="DOUBLE" min="0.0" max="1.0" red="191" green="48" blue="48">
+				<TrackData>
+					<ControlPoint type="LINEAR" time="0.0" value="1.0"/>
+				</TrackData>
+			</Track>
+			<Track address="/app/bar/brightness" mute="false" accumulate="false" type="DOUBLE" min="0.0" max="1.0" red="191" green="48" blue="48">
+				<TrackData>
+					<ControlPoint type="LINEAR" time="0.0" value="1.0"/>
+				</TrackData>
+			</Track>
+		</GroupTrack>
+		<GroupTrack name="/diversity ui/theme" open="true" red="191" green="134" blue="48">
+			<Track address="/diversity ui/theme/particle alpha" mute="false" accumulate="false" type="DOUBLE" min="0.0" max="1.0" red="191" green="134" blue="48">
+				<TrackData/>
+			</Track>
+			<Track address="/diversity ui/theme/reset particles" mute="false" accumulate="false" type="BOOLEAN" min="0.0" max="1.0" red="191" green="134" blue="48">
+				<TrackData/>
+			</Track>
+		</GroupTrack>
+		<GroupTrack name="/diversity ui/content man" open="true" red="163" green="191" blue="48">
+			<Track address="/diversity ui/content man/show headline" mute="false" accumulate="false" type="BOOLEAN" min="0.0" max="1.0" red="163" green="191" blue="48">
+				<TrackData/>
+			</Track>
+			<Track address="/diversity ui/content man/show content" mute="false" accumulate="false" type="BOOLEAN" min="0.0" max="1.0" red="163" green="191" blue="48">
+				<TrackData/>
+			</Track>
+		</GroupTrack>
+		<GroupTrack name="/diversity/bubble manager" open="true" red="76" green="191" blue="48">
+			<Track address="/diversity/bubble manager/open content" mute="false" accumulate="false" type="BOOLEAN" min="0.0" max="1.0" red="76" green="191" blue="48">
+				<TrackData/>
+			</Track>
+		</GroupTrack>
+		<GroupTrack name="/diversity/skeleton particles" open="true" red="48" green="191" blue="105">
+			<Track address="/diversity/skeleton particles/gravity" mute="false" accumulate="false" type="DOUBLE" min="-5.0" max="5.0" red="48" green="191" blue="105">
+				<TrackData/>
+			</Track>
+			<Track address="/diversity/skeleton particles/noise force" mute="false" accumulate="false" type="DOUBLE" min="0.0" max="2.0" red="48" green="191" blue="105">
+				<TrackData/>
+			</Track>
+			<Track address="/diversity/skeleton particles/emits per second" mute="false" accumulate="false" type="DOUBLE" min="0.0" max="2000.0" red="48" green="191" blue="105">
+				<TrackData/>
+			</Track>
+		</GroupTrack>
+		<GroupTrack name="/connectivity/app" open="true" red="191" green="134" blue="48">
+			<Track address="/connectivity/app/background alpha" mute="false" accumulate="false" type="DOUBLE" min="0.0" max="1.0" red="191" green="134" blue="48">
+				<TrackData>
+					<ControlPoint type="LINEAR" time="0.0" value="0.0"/>
+					<ControlPoint type="BEZIER" time="9.845076650915583" value="1.0">
+						<ControlPoint type="HANDLE" time="4.922538325457792" value="1.0"/>
+						<ControlPoint type="HANDLE" time="14.767614976373375" value="1.0"/>
+					</ControlPoint>
+					<ControlPoint type="BEZIER" time="179.33883218875135" value="1.0">
+						<ControlPoint type="HANDLE" time="174.0" value="1.0"/>
+						<ControlPoint type="HANDLE" time="184.6776643775027" value="1.0"/>
+					</ControlPoint>
+					<ControlPoint type="BEZIER" time="198.0" value="0.0">
+						<ControlPoint type="HANDLE" time="190.1805831944882" value="0.0"/>
+						<ControlPoint type="HANDLE" time="205.8194168055118" value="0.0"/>
+					</ControlPoint>
+				</TrackData>
+			</Track>
+		</GroupTrack>
+		<GroupTrack name="/connectivity/globe" open="true" red="163" green="191" blue="48">
+			<Track address="/connectivity/globe/location color pow" mute="false" accumulate="false" type="DOUBLE" min="0.10000000149011612" max="10.0" red="163" green="191" blue="48">
+				<TrackData/>
+			</Track>
+			<Track address="/connectivity/globe/location radius" mute="false" accumulate="false" type="DOUBLE" min="150.0" max="250.0" red="163" green="191" blue="48">
+				<TrackData/>
+			</Track>
+			<Track address="/connectivity/globe/location scale" mute="false" accumulate="false" type="DOUBLE" min="0.0" max="20.0" red="163" green="191" blue="48">
+				<TrackData>
+					<ControlPoint type="BEZIER" time="6.0" value="0.0">
+						<ControlPoint type="HANDLE" time="5.0" value="0.0"/>
+						<ControlPoint type="HANDLE" time="9.474604695397232" value="0.0"/>
+					</ControlPoint>
+					<ControlPoint type="BEZIER" time="14.0" value="0.11818181818181817">
+						<ControlPoint type="HANDLE" time="13.0" value="0.11818181818181817"/>
+						<ControlPoint type="HANDLE" time="15.0" value="0.11818181818181817"/>
+					</ControlPoint>
+				</TrackData>
+			</Track>
+			<Track address="/connectivity/globe/location highlight scale" mute="false" accumulate="false" type="DOUBLE" min="0.0" max="20.0" red="163" green="191" blue="48">
+				<TrackData/>
+			</Track>
+			<Track address="/connectivity/globe/location scale pow" mute="false" accumulate="false" type="DOUBLE" min="0.10000000149011612" max="10.0" red="163" green="191" blue="48">
+				<TrackData/>
+			</Track>
+			<Track address="/connectivity/globe/x" mute="false" accumulate="false" type="DOUBLE" min="-1000.0" max="1000.0" red="163" green="191" blue="48">
+				<TrackData/>
+			</Track>
+			<Track address="/connectivity/globe/y" mute="false" accumulate="false" type="DOUBLE" min="-1000.0" max="1000.0" red="163" green="191" blue="48">
+				<TrackData/>
+			</Track>
+			<Track address="/connectivity/globe/x angle" mute="false" accumulate="false" type="DOUBLE" min="-180.0" max="180.0" red="163" green="191" blue="48">
+				<TrackData>
+					<ControlPoint type="BEZIER" time="14.0" value="0.3545454545454545">
+						<ControlPoint type="HANDLE" time="13.0" value="0.3545454545454545"/>
+						<ControlPoint type="HANDLE" time="15.0" value="0.3545454545454545"/>
+					</ControlPoint>
+					<ControlPoint type="BEZIER" time="50.0" value="0.35964912280701755">
+						<ControlPoint type="HANDLE" time="45.73018070884559" value="0.35964912280701755"/>
+						<ControlPoint type="HANDLE" time="54.26981929115441" value="0.35964912280701755"/>
+					</ControlPoint>
+					<ControlPoint type="BEZIER" time="60.0" value="0.3909090909090909">
+						<ControlPoint type="HANDLE" time="56.0" value="0.38888888888888884"/>
+						<ControlPoint type="HANDLE" time="64.0" value="0.3929292929292929"/>
+					</ControlPoint>
+					<ControlPoint type="BEZIER" time="124.0" value="0.3771929824561403">
+						<ControlPoint type="HANDLE" time="120.45396519762849" value="0.3771929824561403"/>
+						<ControlPoint type="HANDLE" time="127.54603480237151" value="0.3771929824561403"/>
+					</ControlPoint>
+				</TrackData>
+			</Track>
+			<Track address="/connectivity/globe/z angle" mute="false" accumulate="false" type="DOUBLE" min="-180.0" max="180.0" red="163" green="191" blue="48">
+				<TrackData>
+					<ControlPoint type="BEZIER" time="0.0" value="0.009090909090909038">
+						<ControlPoint type="HANDLE" time="-1.0" value="0.009090909090909038"/>
+						<ControlPoint type="HANDLE" time="2.0" value="0.0"/>
+					</ControlPoint>
+					<ControlPoint type="BEZIER" time="14.0" value="0.40445859872611467">
+						<ControlPoint type="HANDLE" time="8.009627917119962" value="0.3943833236826868"/>
+						<ControlPoint type="HANDLE" time="19.990372082880036" value="0.41453387376954254"/>
+					</ControlPoint>
+					<ControlPoint type="BEZIER" time="50.0" value="0.4426751592356688">
+						<ControlPoint type="HANDLE" time="46.0" value="0.4381586566299942"/>
+						<ControlPoint type="HANDLE" time="54.0" value="0.4471916618413434"/>
+					</ControlPoint>
+					<ControlPoint type="BEZIER" time="60.0" value="0.7292993630573248">
+						<ControlPoint type="HANDLE" time="54.444391455012784" value="0.7292993630573248"/>
+						<ControlPoint type="HANDLE" time="65.55560854498722" value="0.7292993630573248"/>
+					</ControlPoint>
+					<ControlPoint type="BEZIER" time="110.0990903340383" value="0.7611464968152866">
+						<ControlPoint type="HANDLE" time="105.3599189252891" value="0.7611464968152866"/>
+						<ControlPoint type="HANDLE" time="114.8382617427875" value="0.7611464968152866"/>
+					</ControlPoint>
+					<ControlPoint type="BEZIER" time="126.0" value="0.9904458598726115">
+						<ControlPoint type="HANDLE" time="120.0" value="0.9936305732484078"/>
+						<ControlPoint type="HANDLE" time="133.89126168268697" value="0.9904458598726115"/>
+					</ControlPoint>
+					<ControlPoint type="BEZIER" time="174.0" value="1.0">
+						<ControlPoint type="HANDLE" time="162.0" value="1.0"/>
+						<ControlPoint type="HANDLE" time="186.0" value="1.0"/>
+					</ControlPoint>
+				</TrackData>
+			</Track>
+			<Track address="/connectivity/globe/scale" mute="false" accumulate="false" type="DOUBLE" min="0.0" max="10.0" red="163" green="191" blue="48">
+				<TrackData>
+					<ControlPoint type="BEZIER" time="0.0" value="0.045454545454545414">
+						<ControlPoint type="HANDLE" time="-1.0" value="0.045454545454545414"/>
+						<ControlPoint type="HANDLE" time="1.0" value="0.045454545454545414"/>
+					</ControlPoint>
+					<ControlPoint type="BEZIER" time="15.0" value="0.2008196721311475">
+						<ControlPoint type="HANDLE" time="10.0" value="0.2008196721311475"/>
+						<ControlPoint type="HANDLE" time="20.0" value="0.2008196721311475"/>
+					</ControlPoint>
+					<ControlPoint type="BEZIER" time="174.0" value="0.2008196721311475">
+						<ControlPoint type="HANDLE" time="167.73871119145113" value="0.2008196721311475"/>
+						<ControlPoint type="HANDLE" time="180.26128880854887" value="0.2008196721311475"/>
+					</ControlPoint>
+					<ControlPoint type="BEZIER" time="198.0" value="0.042986425339366474">
+						<ControlPoint type="HANDLE" time="189.13598098177732" value="0.042986425339366474"/>
+						<ControlPoint type="HANDLE" time="206.86401901822268" value="0.042986425339366474"/>
+					</ControlPoint>
+				</TrackData>
+			</Track>
+		</GroupTrack>
+		<GroupTrack name="/connectivity/streams" open="true" red="76" green="191" blue="48">
+			<Track address="/connectivity/streams/speed" mute="false" accumulate="false" type="DOUBLE" min="0.0" max="1.0" red="76" green="191" blue="48">
+				<TrackData>
+					<ControlPoint type="BEZIER" time="10.0" value="0.0">
+						<ControlPoint type="HANDLE" time="9.0" value="0.0"/>
+						<ControlPoint type="HANDLE" time="20.0" value="0.0"/>
+					</ControlPoint>
+					<ControlPoint type="LINEAR" time="198.0" value="1.0"/>
+				</TrackData>
+			</Track>
+		</GroupTrack>
+	</Tracks>
+</Timeline>

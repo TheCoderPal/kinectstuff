@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Wed Nov 21 09:15:12 CET 2012
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=info.jar
+manifest.mergeall=true
+manifest.mainclass=
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=<cl|C\:\\Users\\brandspace\\git\\creativecomputing\\cc.creativecomputing\\lib\\input>;<cl|C\:\\Users\\brandspace\\git\\creativecomputing\\cc.creativecomputing\\lib\\input>;<jar|jogl.all.jar>;<jar|org.OpenNI.jar>;<jar|QTJava.zip>;<jar|gstreamer-java.jar>;<jar|jartest.jar>;<jar|jogl.cg.jar>;<jar|gluegen-rt.jar>;<jar|gluegen.jar>;<jar|jocl.jar>
+includes=

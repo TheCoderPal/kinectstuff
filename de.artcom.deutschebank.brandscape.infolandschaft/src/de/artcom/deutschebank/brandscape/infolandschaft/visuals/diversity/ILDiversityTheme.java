@@ -18,7 +18,7 @@ public class ILDiversityTheme extends ILTheme {
 	private float _cMirror = 0;
 	@CCControl(name = "particle alpha", min = 0, max = 1, external = true)
 	private float _cParticleAlpha = 0;
-	@CCControl(name = "back brightness", min = 0, max = 1)
+	@CCControl(name = "back brightness", min = 0, max = 1, external = true)
 	private float _cBackBrightness = 0;
 
 	@CCControl(name = "mirror correction", min = 0, max = 3)
@@ -89,8 +89,6 @@ public class ILDiversityTheme extends ILTheme {
 
 		g.noDepthTest();
 		
-		if(_cParticleAlpha <= 0)return;
-		
 
 		g.pushMatrix();
 		g.scale(ILApp.SCALE);
@@ -102,19 +100,19 @@ public class ILDiversityTheme extends ILTheme {
 		g.translate(0, -2 * _myUserManager.particles().floorY() + _cMirrorCorrection * _myUserManager.particles().pointSize(), 0);
 
 		g.color(1f, _cMirror * _cParticleAlpha);
-		_myUserManager.particles().draw(g);
+		if(_cParticleAlpha > 0)_myUserManager.particles().draw(g);
 		g.popMatrix();
 
 		g.color(1f, _cParticleAlpha);
 		g.blend(CCBlendMode.BLEND);
-		_myUserManager.particles().draw(g);
+		if(_cParticleAlpha > 0)_myUserManager.particles().draw(g);
 		
 		for (ILDiversityUser myUser : _myUserManager) {
 			myUser.drawSkeleton(g);
 		}
 		g.color(1f, _cParticleAlpha);
 		g.blend(CCBlendMode.BLEND);
-		_myBubbleManager.draw(g);
+		if(_cParticleAlpha > 0)_myBubbleManager.draw(g);
 		g.depthTest();
 		g.blend();
 

@@ -368,6 +368,10 @@ public class ILContentManager implements ILBubbleListener{
 			_myHeadline.open();
 			_myTips.open();
 		}
+		if(!_cShowHeadline){
+			_myHeadline.close();
+			_myTips.close();
+		}
 		_myHeadline.update(theDeltaTime);
 		_myTips.update(theDeltaTime);
 	}

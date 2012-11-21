@@ -24,7 +24,6 @@ import java.util.List;
 
 import cc.creativecomputing.CCApp;
 import cc.creativecomputing.control.CCControl;
-import cc.creativecomputing.graphics.CCDrawMode;
 import cc.creativecomputing.graphics.CCGraphics;
 import cc.creativecomputing.graphics.CCMesh;
 import cc.creativecomputing.graphics.shader.CCShaderTexture;
@@ -35,7 +34,6 @@ import cc.creativecomputing.graphics.texture.CCTextureIO;
 import cc.creativecomputing.math.CCMath;
 import cc.creativecomputing.math.CCVecMath;
 import cc.creativecomputing.math.CCVector3f;
-import cc.creativecomputing.math.CCVector4f;
 import cc.creativecomputing.math.util.CCQuad3f;
 import cc.creativecomputing.simulation.gpuparticles.CCGPUQueueParticles;
 import cc.creativecomputing.simulation.gpuparticles.constraints.CCGPUConstraint;
@@ -46,9 +44,7 @@ import cc.creativecomputing.simulation.gpuparticles.forces.CCGPUForce;
 import cc.creativecomputing.simulation.gpuparticles.forces.CCGPUForceField;
 import cc.creativecomputing.simulation.gpuparticles.forces.CCGPUGravity;
 import cc.creativecomputing.simulation.gpuparticles.forces.CCGPUViscousDrag;
-import cc.creativecomputing.simulation.gpuparticles.forces.blend.CCGPUIDTextureBlendForce;
 import cc.creativecomputing.simulation.gpuparticles.forces.target.CCGPUTargetForce;
-import cc.creativecomputing.simulation.gpuparticles.forces.target.CCGPUTargetPointSetSetup;
 import cc.creativecomputing.simulation.gpuparticles.impulses.CCGPUImpulse;
 import cc.creativecomputing.simulation.gpuparticles.impulses.CCGPUSphereImpulse;
 import cc.creativecomputing.simulation.gpuparticles.render.CCGPUPointSpriteRenderer;
@@ -65,9 +61,6 @@ public class ILSkeletonParticles {
 		
 		@CCControl(name = "impulse radius", min = 0, max = 500)
 		private float _cSphereImpulseRadius = 0;
-		
-		@CCControl(name = "impulse timer", min = 0, max = 5)
-		private float _cSphereImpulseTimer = 0;
 		
 		@CCControl(name = "draw debug")
 		private boolean _cDrawDebug = true;
@@ -231,7 +224,7 @@ public class ILSkeletonParticles {
 		}
 		
 		theApp.addControls("diversity", "constraint controls",2, _myConstraintSettings);
-		theApp.addControls("diversity", "sphere impulse controls",2, _mySphereImpulseControls);
+		theApp.addControls("diversity", "step impulse controls",2, _mySphereImpulseControls);
 		
 		_myQuad3f = new CCQuad3f(
 			new CCVector3f(_cQuadSettings._cLeftTopX, _cQuadSettings._cLeftTopY), 
@@ -270,7 +263,6 @@ public class ILSkeletonParticles {
 		return _myParticles.renderer().mesh();
 	}
 	
-	private float _myTriggerTimer = 0;
 	private float _myLastEmits = 0;
 	
 	public void update(float theDeltaTime) {
@@ -328,37 +320,10 @@ public class ILSkeletonParticles {
 		_myForceField.noiseOffset(new CCVector3f(0,0,_myTime));
 		_myForceField.noiseScale(_cNoiseScale / 100f);
 		_myGravity.strength(_cGravity);
-		
-		_myTriggerTimer += theDeltaTime;
-		
-		if(_myTriggerTimer > _mySphereImpulseControls._cSphereImpulseTimer) {
-			_myTriggerTimer = 0;
-//			_mySphereImpulse.center(
-//				new CCVector3f(
-//					CCMath.random(-_mySphereImpulseControls._cImpulseX, _mySphereImpulseControls._cImpulseX),
-//					_mySphereImpulseControls._cSphereImpulseY, 
-//					CCMath.random(_mySphereImpulseControls._cImpulseZ1, _mySphereImpulseControls._cImpulseZ2)
-//				)
-//			);
-//			
-//			_mySphereImpulse.strength(_mySphereImpulseControls._cSphereImpulseStrength);
-//			_mySphereImpulse.radius(_mySphereImpulseControls._cSphereImpulseRadius);
-//			_mySphereImpulse.trigger();
-			
-//			triggerImpulse(
-//				new CCVector3f(
-//					CCMath.random(-_mySphereImpulseControls._cImpulseX, _mySphereImpulseControls._cImpulseX),
-//					_mySphereImpulseControls._cSphereImpulseY, 
-//					CCMath.random(_mySphereImpulseControls._cImpulseZ1, _mySphereImpulseControls._cImpulseZ2)
-//				)
-//			);
-		}
-		
 
 		_myRenderer.pointSize(_cPointSize);
 		_myRenderer.fadeOut(false);
 		
-		float myZ = (_myConstraintSettings._cBackZ + _myConstraintSettings._cFrontZ) / 2;
 //		_myQuad3f.leftBottom().set(_cQuadSettings._cLeftBottomX, _cQuadSettings._cLeftBottomY, myZ);
 //		_myQuad3f.leftTop().set(_cQuadSettings._cLeftTopX, _cQuadSettings._cLeftTopY, myZ);
 //			new CCVector3f(), 

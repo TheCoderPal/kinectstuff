@@ -88,9 +88,7 @@ public abstract class ILAbstractApp extends CCApp {
  
 	@Override
 	public void setup() {
-		_myTimeline = new SwingTimelineContainer();
-		_myTimelineConnection = new CCUITimelineConnector(this, _myTimeline);
-		_myTimeline.setSize(1400, 300);
+		initTimeline();
 		
 		_myBar = new ILBar();
 		addControls("app", "bar", 0, _myBar);
@@ -139,12 +137,20 @@ public abstract class ILAbstractApp extends CCApp {
 	
 	public abstract void initThemes();
 	
+	public void initTimeline(){
+		_myTimeline = new SwingTimelineContainer();
+		_myTimelineConnection = new CCUITimelineConnector(this, _myTimeline);
+		_myTimeline.setSize(1400, 300);
+	}
+	
 	public void addTheme(ILTheme theTheme) {
 		_myThemes.add(theTheme);
 	}
 
 	@Override
 	public void update(final float theDeltaTime) {
+		if(areControlsVisible())cursor();
+		else noCursor();
 		_myOpenNI.transformationMatrix().reset();
 		_myOpenNI.transformationMatrix().translate(
 			_myOpenNIControls._cTranslateX,
@@ -161,7 +167,7 @@ public abstract class ILAbstractApp extends CCApp {
 		
 		_myInteractionArea.update(theDeltaTime);
 
-		_myTimeline.update(theDeltaTime);
+		if(_myTimeline != null)_myTimeline.update(theDeltaTime);
 		for(ILTheme myTheme:_myThemes) {
 			myTheme.update(theDeltaTime);
 		}
@@ -208,6 +214,7 @@ public abstract class ILAbstractApp extends CCApp {
 
 	@Override
 	public void draw() {
+		g.pushAttribute();
 		if(_myOpenNIControls._cDrawOpenNI) {
 			drawOpenNI();
 			return;
@@ -229,6 +236,7 @@ public abstract class ILAbstractApp extends CCApp {
 		g.color(0);
 		g.rect(-width/2, height/2 - _cMaskTop, width,_cMaskTop);
 		g.rect(-width/2, -height/2, width, _cMaskBottom);
+		g.popAttribute();
 	}
 	
 	@Override

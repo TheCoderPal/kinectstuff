@@ -95,7 +95,7 @@ public class ILBloomPass {
 		g.clear();
 		g.image(_myRenderTexture, -_myWidth/2, -_myHeight/2);
 		_myBlur.endDraw(g);
-		g.clear();
+		//g.clear();
 		
 		if(!_cDebugBloom) {
 			g.image(_myRenderTexture, -_myWidth/2, -_myHeight/2);

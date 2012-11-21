@@ -2,13 +2,16 @@ package de.artcom.deutschebank.brandscape.infolandschaft.visuals.diversity;
 
 import cc.creativecomputing.CCApplicationManager;
 import de.artcom.deutschebank.brandscape.infolandschaft.visuals.ILAbstractApp;
-import de.artcom.deutschebank.brandscape.infolandschaft.visuals.ILApp;
 
 public class ILDiversityApp extends ILAbstractApp {
 	
 	@Override
 	public void initThemes() {
 		addTheme(new ILDiversityTheme(this,_myInteractionArea));
+	}
+	
+	@Override
+	public void initTimeline() {
 	}
 
 	public static void main(String[] args) {
